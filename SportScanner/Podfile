@@ -1,0 +1,20 @@
+platform :ios, '14.0'
+
+target 'SportScanner' do
+
+  use_frameworks!
+
+  target 'SportScannerTests' do
+    pod 'Firebase/Analytics'
+    pod 'Firebase/Crashlytics'
+    pod 'LookinServer', '~> 1.0.2', :configurations => ['Debug']
+    #Swift库
+    pod 'SnapKit', '~> 5.0.0'
+    pod 'Hero'
+    pod 
+  end
+
+  target 'SportScannerUITests' do
+  end
+
+end
