@@ -18,6 +18,72 @@
 		AAEAC17E26EB81FE000D0DDD /* SportScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAC17D26EB81FE000D0DDD /* SportScannerTests.swift */; };
 		AAEAC18926EB81FE000D0DDD /* SportScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAC18826EB81FE000D0DDD /* SportScannerUITests.swift */; };
 		D783A6FB8467CCAE4F5BCDCC /* Pods_SportScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7084E8C8EE8084149873FA /* Pods_SportScanner.framework */; };
+		DAFDA10826EBAC82009ADDAE /* HFSAppCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA0FF26EBAC81009ADDAE /* HFSAppCommon.swift */; };
+		DAFDA11D26EBACAC009ADDAE /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA10A26EBACAC009ADDAE /* CGRectExtension.swift */; };
+		DAFDA11E26EBACAC009ADDAE /* CGSize+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA10B26EBACAC009ADDAE /* CGSize+Extension.swift */; };
+		DAFDA11F26EBACAC009ADDAE /* CAGradientLayerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA10D26EBACAC009ADDAE /* CAGradientLayerExtensions.swift */; };
+		DAFDA12026EBACAC009ADDAE /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA10F26EBACAC009ADDAE /* UIButtonExtension.swift */; };
+		DAFDA12126EBACAC009ADDAE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA11026EBACAC009ADDAE /* UIColor+Extension.swift */; };
+		DAFDA12226EBACAC009ADDAE /* CGImage+Accelerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA11126EBACAC009ADDAE /* CGImage+Accelerate.swift */; };
+		DAFDA12326EBACAD009ADDAE /* CGContext+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA11226EBACAC009ADDAE /* CGContext+CGImage.swift */; };
+		DAFDA12426EBACAD009ADDAE /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA11326EBACAC009ADDAE /* UILabelExtension.swift */; };
+		DAFDA12526EBACAD009ADDAE /* CustomBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA11426EBACAC009ADDAE /* CustomBlurView.swift */; };
+		DAFDA12626EBACAD009ADDAE /* CaptureQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA11526EBACAC009ADDAE /* CaptureQuality.swift */; };
+		DAFDA12726EBACAD009ADDAE /* CGRect+Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA11626EBACAC009ADDAE /* CGRect+Conversion.swift */; };
+		DAFDA12826EBACAD009ADDAE /* TrackingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA11726EBACAC009ADDAE /* TrackingMode.swift */; };
+		DAFDA12926EBACAD009ADDAE /* UIImage+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA11826EBACAC009ADDAE /* UIImage+Blur.swift */; };
+		DAFDA12A26EBACAD009ADDAE /* BlurLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA11926EBACAC009ADDAE /* BlurLayer.swift */; };
+		DAFDA12B26EBACAD009ADDAE /* CALayer+Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA11A26EBACAC009ADDAE /* CALayer+Conversion.swift */; };
+		DAFDA12C26EBACAD009ADDAE /* UINavgationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA11B26EBACAC009ADDAE /* UINavgationControllerExtension.swift */; };
+		DAFDA12D26EBACAD009ADDAE /* DynamicBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA11C26EBACAC009ADDAE /* DynamicBlurView.swift */; };
+		DAFDA16A26EBADB6009ADDAE /* JJFloatingActionButton+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA12F26EBADB6009ADDAE /* JJFloatingActionButton+Animation.swift */; };
+		DAFDA16B26EBADB6009ADDAE /* UIView+JJFloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA13026EBADB6009ADDAE /* UIView+JJFloatingActionButton.swift */; };
+		DAFDA16C26EBADB6009ADDAE /* JJFloatingActionButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA13126EBADB6009ADDAE /* JJFloatingActionButtonDelegate.swift */; };
+		DAFDA16D26EBADB6009ADDAE /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA13226EBADB6009ADDAE /* Styles.swift */; };
+		DAFDA16E26EBADB6009ADDAE /* AnimationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA13326EBADB6009ADDAE /* AnimationConfiguration.swift */; };
+		DAFDA16F26EBADB6009ADDAE /* JJActionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA13426EBADB6009ADDAE /* JJActionItem.swift */; };
+		DAFDA17026EBADB6009ADDAE /* JJFloatingActionButtonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA13526EBADB6009ADDAE /* JJFloatingActionButtonState.swift */; };
+		DAFDA17126EBADB6009ADDAE /* JJActionItemTitlePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA13626EBADB6009ADDAE /* JJActionItemTitlePosition.swift */; };
+		DAFDA17226EBADB6009ADDAE /* UIColor+JJFloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA13726EBADB6009ADDAE /* UIColor+JJFloatingActionButton.swift */; };
+		DAFDA17326EBADB6009ADDAE /* JJFloatingActionButton+Placement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA13826EBADB6009ADDAE /* JJFloatingActionButton+Placement.swift */; };
+		DAFDA17426EBADB6009ADDAE /* LayerProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA13926EBADB6009ADDAE /* LayerProperties.swift */; };
+		DAFDA17526EBADB6009ADDAE /* JJFloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA13A26EBADB6009ADDAE /* JJFloatingActionButton.swift */; };
+		DAFDA17626EBADB6009ADDAE /* JJCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA13B26EBADB6009ADDAE /* JJCircleView.swift */; };
+		DAFDA17926EBADB6009ADDAE /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14026EBADB6009ADDAE /* UIDevice+Extension.swift */; };
+		DAFDA17A26EBADB6009ADDAE /* Shock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14126EBADB6009ADDAE /* Shock.swift */; };
+		DAFDA17B26EBADB6009ADDAE /* ShockFeedbackEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14226EBADB6009ADDAE /* ShockFeedbackEngine.swift */; };
+		DAFDA17C26EBADB6009ADDAE /* ShockPatternEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14326EBADB6009ADDAE /* ShockPatternEngine.swift */; };
+		DAFDA17D26EBADB6009ADDAE /* TapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14426EBADB6009ADDAE /* TapticEngine.swift */; };
+		DAFDA17E26EBADB6009ADDAE /* UIButton+Shock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14526EBADB6009ADDAE /* UIButton+Shock.swift */; };
+		DAFDA17F26EBADB6009ADDAE /* ShockPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14626EBADB6009ADDAE /* ShockPattern.swift */; };
+		DAFDA18026EBADB6009ADDAE /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14926EBADB6009ADDAE /* CGRectExtension.swift */; };
+		DAFDA18126EBADB6009ADDAE /* CGSize+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14A26EBADB6009ADDAE /* CGSize+Extension.swift */; };
+		DAFDA18226EBADB6009ADDAE /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14C26EBADB6009ADDAE /* UIButtonExtension.swift */; };
+		DAFDA18326EBADB6009ADDAE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14D26EBADB6009ADDAE /* UIColor+Extension.swift */; };
+		DAFDA18426EBADB6009ADDAE /* CGImage+Accelerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14E26EBADB6009ADDAE /* CGImage+Accelerate.swift */; };
+		DAFDA18526EBADB6009ADDAE /* CGContext+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14F26EBADB6009ADDAE /* CGContext+CGImage.swift */; };
+		DAFDA18626EBADB6009ADDAE /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15026EBADB6009ADDAE /* UILabelExtension.swift */; };
+		DAFDA18726EBADB6009ADDAE /* CustomBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15126EBADB6009ADDAE /* CustomBlurView.swift */; };
+		DAFDA18826EBADB6009ADDAE /* CaptureQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15226EBADB6009ADDAE /* CaptureQuality.swift */; };
+		DAFDA18926EBADB6009ADDAE /* CGRect+Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15326EBADB6009ADDAE /* CGRect+Conversion.swift */; };
+		DAFDA18A26EBADB6009ADDAE /* TrackingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15426EBADB6009ADDAE /* TrackingMode.swift */; };
+		DAFDA18B26EBADB6009ADDAE /* UIImage+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15526EBADB6009ADDAE /* UIImage+Blur.swift */; };
+		DAFDA18C26EBADB6009ADDAE /* BlurLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15626EBADB6009ADDAE /* BlurLayer.swift */; };
+		DAFDA18D26EBADB6009ADDAE /* CALayer+Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15726EBADB6009ADDAE /* CALayer+Conversion.swift */; };
+		DAFDA18E26EBADB6009ADDAE /* UINavgationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15826EBADB6009ADDAE /* UINavgationControllerExtension.swift */; };
+		DAFDA18F26EBADB6009ADDAE /* DynamicBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15926EBADB6009ADDAE /* DynamicBlurView.swift */; };
+		DAFDA19026EBADB6009ADDAE /* CAGradientLayerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15B26EBADB6009ADDAE /* CAGradientLayerExtensions.swift */; };
+		DAFDA19926EBADB6009ADDAE /* HFSNiblessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA16726EBADB6009ADDAE /* HFSNiblessView.swift */; };
+		DAFDA19A26EBADB6009ADDAE /* HFSNiblessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA16826EBADB6009ADDAE /* HFSNiblessViewController.swift */; };
+		DAFDA19B26EBADB6009ADDAE /* HFSNiblessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA16926EBADB6009ADDAE /* HFSNiblessTableViewCell.swift */; };
+		DAFDA1A526EBADDD009ADDAE /* BottomPopupUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA19D26EBADDD009ADDAE /* BottomPopupUtils.swift */; };
+		DAFDA1A626EBADDD009ADDAE /* BottomPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA19E26EBADDD009ADDAE /* BottomPopupViewController.swift */; };
+		DAFDA1A726EBADDD009ADDAE /* BottomPopupDismissInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA19F26EBADDD009ADDAE /* BottomPopupDismissInteractionController.swift */; };
+		DAFDA1A826EBADDD009ADDAE /* BottomPopupNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA1A026EBADDD009ADDAE /* BottomPopupNavigationController.swift */; };
+		DAFDA1A926EBADDD009ADDAE /* BottomPopupDismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA1A126EBADDD009ADDAE /* BottomPopupDismissAnimator.swift */; };
+		DAFDA1AA26EBADDD009ADDAE /* BottomPopupPresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA1A226EBADDD009ADDAE /* BottomPopupPresentAnimator.swift */; };
+		DAFDA1AB26EBADDD009ADDAE /* BottomPopupTransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA1A326EBADDD009ADDAE /* BottomPopupTransitionHandler.swift */; };
+		DAFDA1AC26EBADDD009ADDAE /* BottomPopupPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA1A426EBADDD009ADDAE /* BottomPopupPresentationController.swift */; };
 		ED23DCCF0D02DBEA63795B1C /* Pods_SportScanner_SportScannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F6FD13479D59D5D76F9DE6 /* Pods_SportScanner_SportScannerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +130,72 @@
 		B891FB27C807E64D88082DF3 /* Pods-SportScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportScanner.release.xcconfig"; path = "Target Support Files/Pods-SportScanner/Pods-SportScanner.release.xcconfig"; sourceTree = "<group>"; };
 		BDD204C87CECD47B4B90D759 /* Pods-SportScannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportScannerTests.release.xcconfig"; path = "Target Support Files/Pods-SportScannerTests/Pods-SportScannerTests.release.xcconfig"; sourceTree = "<group>"; };
 		C8311A6A9E8FC0054B55FDA5 /* Pods-SportScanner-SportScannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportScanner-SportScannerTests.debug.xcconfig"; path = "Target Support Files/Pods-SportScanner-SportScannerTests/Pods-SportScanner-SportScannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAFDA0FF26EBAC81009ADDAE /* HFSAppCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFSAppCommon.swift; sourceTree = "<group>"; };
+		DAFDA10A26EBACAC009ADDAE /* CGRectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectExtension.swift; sourceTree = "<group>"; };
+		DAFDA10B26EBACAC009ADDAE /* CGSize+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Extension.swift"; sourceTree = "<group>"; };
+		DAFDA10D26EBACAC009ADDAE /* CAGradientLayerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAGradientLayerExtensions.swift; sourceTree = "<group>"; };
+		DAFDA10F26EBACAC009ADDAE /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		DAFDA11026EBACAC009ADDAE /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		DAFDA11126EBACAC009ADDAE /* CGImage+Accelerate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+Accelerate.swift"; sourceTree = "<group>"; };
+		DAFDA11226EBACAC009ADDAE /* CGContext+CGImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGContext+CGImage.swift"; sourceTree = "<group>"; };
+		DAFDA11326EBACAC009ADDAE /* UILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		DAFDA11426EBACAC009ADDAE /* CustomBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBlurView.swift; sourceTree = "<group>"; };
+		DAFDA11526EBACAC009ADDAE /* CaptureQuality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureQuality.swift; sourceTree = "<group>"; };
+		DAFDA11626EBACAC009ADDAE /* CGRect+Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Conversion.swift"; sourceTree = "<group>"; };
+		DAFDA11726EBACAC009ADDAE /* TrackingMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingMode.swift; sourceTree = "<group>"; };
+		DAFDA11826EBACAC009ADDAE /* UIImage+Blur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Blur.swift"; sourceTree = "<group>"; };
+		DAFDA11926EBACAC009ADDAE /* BlurLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurLayer.swift; sourceTree = "<group>"; };
+		DAFDA11A26EBACAC009ADDAE /* CALayer+Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Conversion.swift"; sourceTree = "<group>"; };
+		DAFDA11B26EBACAC009ADDAE /* UINavgationControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavgationControllerExtension.swift; sourceTree = "<group>"; };
+		DAFDA11C26EBACAC009ADDAE /* DynamicBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicBlurView.swift; sourceTree = "<group>"; };
+		DAFDA12F26EBADB6009ADDAE /* JJFloatingActionButton+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JJFloatingActionButton+Animation.swift"; sourceTree = "<group>"; };
+		DAFDA13026EBADB6009ADDAE /* UIView+JJFloatingActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+JJFloatingActionButton.swift"; sourceTree = "<group>"; };
+		DAFDA13126EBADB6009ADDAE /* JJFloatingActionButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJFloatingActionButtonDelegate.swift; sourceTree = "<group>"; };
+		DAFDA13226EBADB6009ADDAE /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		DAFDA13326EBADB6009ADDAE /* AnimationConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationConfiguration.swift; sourceTree = "<group>"; };
+		DAFDA13426EBADB6009ADDAE /* JJActionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJActionItem.swift; sourceTree = "<group>"; };
+		DAFDA13526EBADB6009ADDAE /* JJFloatingActionButtonState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJFloatingActionButtonState.swift; sourceTree = "<group>"; };
+		DAFDA13626EBADB6009ADDAE /* JJActionItemTitlePosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJActionItemTitlePosition.swift; sourceTree = "<group>"; };
+		DAFDA13726EBADB6009ADDAE /* UIColor+JJFloatingActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+JJFloatingActionButton.swift"; sourceTree = "<group>"; };
+		DAFDA13826EBADB6009ADDAE /* JJFloatingActionButton+Placement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JJFloatingActionButton+Placement.swift"; sourceTree = "<group>"; };
+		DAFDA13926EBADB6009ADDAE /* LayerProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerProperties.swift; sourceTree = "<group>"; };
+		DAFDA13A26EBADB6009ADDAE /* JJFloatingActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJFloatingActionButton.swift; sourceTree = "<group>"; };
+		DAFDA13B26EBADB6009ADDAE /* JJCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJCircleView.swift; sourceTree = "<group>"; };
+		DAFDA14026EBADB6009ADDAE /* UIDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		DAFDA14126EBADB6009ADDAE /* Shock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shock.swift; sourceTree = "<group>"; };
+		DAFDA14226EBADB6009ADDAE /* ShockFeedbackEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShockFeedbackEngine.swift; sourceTree = "<group>"; };
+		DAFDA14326EBADB6009ADDAE /* ShockPatternEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShockPatternEngine.swift; sourceTree = "<group>"; };
+		DAFDA14426EBADB6009ADDAE /* TapticEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapticEngine.swift; sourceTree = "<group>"; };
+		DAFDA14526EBADB6009ADDAE /* UIButton+Shock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Shock.swift"; sourceTree = "<group>"; };
+		DAFDA14626EBADB6009ADDAE /* ShockPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShockPattern.swift; sourceTree = "<group>"; };
+		DAFDA14926EBADB6009ADDAE /* CGRectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectExtension.swift; sourceTree = "<group>"; };
+		DAFDA14A26EBADB6009ADDAE /* CGSize+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Extension.swift"; sourceTree = "<group>"; };
+		DAFDA14C26EBADB6009ADDAE /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		DAFDA14D26EBADB6009ADDAE /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		DAFDA14E26EBADB6009ADDAE /* CGImage+Accelerate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+Accelerate.swift"; sourceTree = "<group>"; };
+		DAFDA14F26EBADB6009ADDAE /* CGContext+CGImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGContext+CGImage.swift"; sourceTree = "<group>"; };
+		DAFDA15026EBADB6009ADDAE /* UILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		DAFDA15126EBADB6009ADDAE /* CustomBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBlurView.swift; sourceTree = "<group>"; };
+		DAFDA15226EBADB6009ADDAE /* CaptureQuality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureQuality.swift; sourceTree = "<group>"; };
+		DAFDA15326EBADB6009ADDAE /* CGRect+Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Conversion.swift"; sourceTree = "<group>"; };
+		DAFDA15426EBADB6009ADDAE /* TrackingMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingMode.swift; sourceTree = "<group>"; };
+		DAFDA15526EBADB6009ADDAE /* UIImage+Blur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Blur.swift"; sourceTree = "<group>"; };
+		DAFDA15626EBADB6009ADDAE /* BlurLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurLayer.swift; sourceTree = "<group>"; };
+		DAFDA15726EBADB6009ADDAE /* CALayer+Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Conversion.swift"; sourceTree = "<group>"; };
+		DAFDA15826EBADB6009ADDAE /* UINavgationControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavgationControllerExtension.swift; sourceTree = "<group>"; };
+		DAFDA15926EBADB6009ADDAE /* DynamicBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicBlurView.swift; sourceTree = "<group>"; };
+		DAFDA15B26EBADB6009ADDAE /* CAGradientLayerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAGradientLayerExtensions.swift; sourceTree = "<group>"; };
+		DAFDA16726EBADB6009ADDAE /* HFSNiblessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFSNiblessView.swift; sourceTree = "<group>"; };
+		DAFDA16826EBADB6009ADDAE /* HFSNiblessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFSNiblessViewController.swift; sourceTree = "<group>"; };
+		DAFDA16926EBADB6009ADDAE /* HFSNiblessTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFSNiblessTableViewCell.swift; sourceTree = "<group>"; };
+		DAFDA19D26EBADDD009ADDAE /* BottomPopupUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupUtils.swift; sourceTree = "<group>"; };
+		DAFDA19E26EBADDD009ADDAE /* BottomPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupViewController.swift; sourceTree = "<group>"; };
+		DAFDA19F26EBADDD009ADDAE /* BottomPopupDismissInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupDismissInteractionController.swift; sourceTree = "<group>"; };
+		DAFDA1A026EBADDD009ADDAE /* BottomPopupNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupNavigationController.swift; sourceTree = "<group>"; };
+		DAFDA1A126EBADDD009ADDAE /* BottomPopupDismissAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupDismissAnimator.swift; sourceTree = "<group>"; };
+		DAFDA1A226EBADDD009ADDAE /* BottomPopupPresentAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupPresentAnimator.swift; sourceTree = "<group>"; };
+		DAFDA1A326EBADDD009ADDAE /* BottomPopupTransitionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupTransitionHandler.swift; sourceTree = "<group>"; };
+		DAFDA1A426EBADDD009ADDAE /* BottomPopupPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupPresentationController.swift; sourceTree = "<group>"; };
 		ED7084E8C8EE8084149873FA /* Pods_SportScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -145,7 +277,7 @@
 		AAEAC16226EB81FD000D0DDD /* SportScanner */ = {
 			isa = PBXGroup;
 			children = (
-				AAEAC19626EB831F000D0DDD /* In */,
+				AAEAC19626EB831F000D0DDD /* infrastructure */,
 				AAEAC16326EB81FD000D0DDD /* AppDelegate.swift */,
 				AAEAC16526EB81FD000D0DDD /* SceneDelegate.swift */,
 				AAEAC16726EB81FD000D0DDD /* ViewController.swift */,
@@ -176,11 +308,176 @@
 			path = SportScannerUITests;
 			sourceTree = "<group>";
 		};
-		AAEAC19626EB831F000D0DDD /* In */ = {
+		AAEAC19626EB831F000D0DDD /* infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				DAFDA19C26EBADDD009ADDAE /* BottomPopupController */,
+				DAFDA12E26EBADB6009ADDAE /* FloatButton */,
+				DAFDA13F26EBADB6009ADDAE /* ShockEngine */,
+				DAFDA14726EBADB6009ADDAE /* SwiftCategories */,
+				DAFDA16526EBADB6009ADDAE /* UIComponent */,
+				DAFDA10C26EBACAC009ADDAE /* CoreAnimation */,
+				DAFDA10926EBACAC009ADDAE /* CoreGraphics */,
+				DAFDA10E26EBACAC009ADDAE /* UIKit */,
+				DAFDA0FF26EBAC81009ADDAE /* HFSAppCommon.swift */,
 			);
-			path = In;
+			path = infrastructure;
+			sourceTree = "<group>";
+		};
+		DAFDA10926EBACAC009ADDAE /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDA10A26EBACAC009ADDAE /* CGRectExtension.swift */,
+				DAFDA10B26EBACAC009ADDAE /* CGSize+Extension.swift */,
+			);
+			name = CoreGraphics;
+			path = SwiftCategories/CoreGraphics;
+			sourceTree = "<group>";
+		};
+		DAFDA10C26EBACAC009ADDAE /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDA10D26EBACAC009ADDAE /* CAGradientLayerExtensions.swift */,
+			);
+			name = CoreAnimation;
+			path = SwiftCategories/CoreAnimation;
+			sourceTree = "<group>";
+		};
+		DAFDA10E26EBACAC009ADDAE /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDA10F26EBACAC009ADDAE /* UIButtonExtension.swift */,
+				DAFDA11026EBACAC009ADDAE /* UIColor+Extension.swift */,
+				DAFDA11126EBACAC009ADDAE /* CGImage+Accelerate.swift */,
+				DAFDA11226EBACAC009ADDAE /* CGContext+CGImage.swift */,
+				DAFDA11326EBACAC009ADDAE /* UILabelExtension.swift */,
+				DAFDA11426EBACAC009ADDAE /* CustomBlurView.swift */,
+				DAFDA11526EBACAC009ADDAE /* CaptureQuality.swift */,
+				DAFDA11626EBACAC009ADDAE /* CGRect+Conversion.swift */,
+				DAFDA11726EBACAC009ADDAE /* TrackingMode.swift */,
+				DAFDA11826EBACAC009ADDAE /* UIImage+Blur.swift */,
+				DAFDA11926EBACAC009ADDAE /* BlurLayer.swift */,
+				DAFDA11A26EBACAC009ADDAE /* CALayer+Conversion.swift */,
+				DAFDA11B26EBACAC009ADDAE /* UINavgationControllerExtension.swift */,
+				DAFDA11C26EBACAC009ADDAE /* DynamicBlurView.swift */,
+			);
+			name = UIKit;
+			path = SwiftCategories/UIKit;
+			sourceTree = "<group>";
+		};
+		DAFDA12E26EBADB6009ADDAE /* FloatButton */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDA12F26EBADB6009ADDAE /* JJFloatingActionButton+Animation.swift */,
+				DAFDA13026EBADB6009ADDAE /* UIView+JJFloatingActionButton.swift */,
+				DAFDA13126EBADB6009ADDAE /* JJFloatingActionButtonDelegate.swift */,
+				DAFDA13226EBADB6009ADDAE /* Styles.swift */,
+				DAFDA13326EBADB6009ADDAE /* AnimationConfiguration.swift */,
+				DAFDA13426EBADB6009ADDAE /* JJActionItem.swift */,
+				DAFDA13526EBADB6009ADDAE /* JJFloatingActionButtonState.swift */,
+				DAFDA13626EBADB6009ADDAE /* JJActionItemTitlePosition.swift */,
+				DAFDA13726EBADB6009ADDAE /* UIColor+JJFloatingActionButton.swift */,
+				DAFDA13826EBADB6009ADDAE /* JJFloatingActionButton+Placement.swift */,
+				DAFDA13926EBADB6009ADDAE /* LayerProperties.swift */,
+				DAFDA13A26EBADB6009ADDAE /* JJFloatingActionButton.swift */,
+				DAFDA13B26EBADB6009ADDAE /* JJCircleView.swift */,
+			);
+			path = FloatButton;
+			sourceTree = "<group>";
+		};
+		DAFDA13F26EBADB6009ADDAE /* ShockEngine */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDA14026EBADB6009ADDAE /* UIDevice+Extension.swift */,
+				DAFDA14126EBADB6009ADDAE /* Shock.swift */,
+				DAFDA14226EBADB6009ADDAE /* ShockFeedbackEngine.swift */,
+				DAFDA14326EBADB6009ADDAE /* ShockPatternEngine.swift */,
+				DAFDA14426EBADB6009ADDAE /* TapticEngine.swift */,
+				DAFDA14526EBADB6009ADDAE /* UIButton+Shock.swift */,
+				DAFDA14626EBADB6009ADDAE /* ShockPattern.swift */,
+			);
+			path = ShockEngine;
+			sourceTree = "<group>";
+		};
+		DAFDA14726EBADB6009ADDAE /* SwiftCategories */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDA14826EBADB6009ADDAE /* CoreGraphics */,
+				DAFDA14B26EBADB6009ADDAE /* UIKit */,
+				DAFDA15A26EBADB6009ADDAE /* CoreAnimation */,
+			);
+			path = SwiftCategories;
+			sourceTree = "<group>";
+		};
+		DAFDA14826EBADB6009ADDAE /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDA14926EBADB6009ADDAE /* CGRectExtension.swift */,
+				DAFDA14A26EBADB6009ADDAE /* CGSize+Extension.swift */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		DAFDA14B26EBADB6009ADDAE /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDA14C26EBADB6009ADDAE /* UIButtonExtension.swift */,
+				DAFDA14D26EBADB6009ADDAE /* UIColor+Extension.swift */,
+				DAFDA14E26EBADB6009ADDAE /* CGImage+Accelerate.swift */,
+				DAFDA14F26EBADB6009ADDAE /* CGContext+CGImage.swift */,
+				DAFDA15026EBADB6009ADDAE /* UILabelExtension.swift */,
+				DAFDA15126EBADB6009ADDAE /* CustomBlurView.swift */,
+				DAFDA15226EBADB6009ADDAE /* CaptureQuality.swift */,
+				DAFDA15326EBADB6009ADDAE /* CGRect+Conversion.swift */,
+				DAFDA15426EBADB6009ADDAE /* TrackingMode.swift */,
+				DAFDA15526EBADB6009ADDAE /* UIImage+Blur.swift */,
+				DAFDA15626EBADB6009ADDAE /* BlurLayer.swift */,
+				DAFDA15726EBADB6009ADDAE /* CALayer+Conversion.swift */,
+				DAFDA15826EBADB6009ADDAE /* UINavgationControllerExtension.swift */,
+				DAFDA15926EBADB6009ADDAE /* DynamicBlurView.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		DAFDA15A26EBADB6009ADDAE /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDA15B26EBADB6009ADDAE /* CAGradientLayerExtensions.swift */,
+			);
+			path = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		DAFDA16526EBADB6009ADDAE /* UIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDA16626EBADB6009ADDAE /* Nibless */,
+			);
+			path = UIComponent;
+			sourceTree = "<group>";
+		};
+		DAFDA16626EBADB6009ADDAE /* Nibless */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDA16726EBADB6009ADDAE /* HFSNiblessView.swift */,
+				DAFDA16826EBADB6009ADDAE /* HFSNiblessViewController.swift */,
+				DAFDA16926EBADB6009ADDAE /* HFSNiblessTableViewCell.swift */,
+			);
+			path = Nibless;
+			sourceTree = "<group>";
+		};
+		DAFDA19C26EBADDD009ADDAE /* BottomPopupController */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDA19D26EBADDD009ADDAE /* BottomPopupUtils.swift */,
+				DAFDA19E26EBADDD009ADDAE /* BottomPopupViewController.swift */,
+				DAFDA19F26EBADDD009ADDAE /* BottomPopupDismissInteractionController.swift */,
+				DAFDA1A026EBADDD009ADDAE /* BottomPopupNavigationController.swift */,
+				DAFDA1A126EBADDD009ADDAE /* BottomPopupDismissAnimator.swift */,
+				DAFDA1A226EBADDD009ADDAE /* BottomPopupPresentAnimator.swift */,
+				DAFDA1A326EBADDD009ADDAE /* BottomPopupTransitionHandler.swift */,
+				DAFDA1A426EBADDD009ADDAE /* BottomPopupPresentationController.swift */,
+			);
+			path = BottomPopupController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +497,8 @@
 			dependencies = (
 			);
 			name = SportScanner;
+			packageProductDependencies = (
+			);
 			productName = SportScanner;
 			productReference = AAEAC16026EB81FD000D0DDD /* SportScanner.app */;
 			productType = "com.apple.product-type.application";
@@ -274,6 +573,8 @@
 				Base,
 			);
 			mainGroup = AAEAC15726EB81FD000D0DDD;
+			packageReferences = (
+			);
 			productRefGroup = AAEAC16126EB81FD000D0DDD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -404,9 +705,75 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAEAC16826EB81FD000D0DDD /* ViewController.swift in Sources */,
+				DAFDA18F26EBADB6009ADDAE /* DynamicBlurView.swift in Sources */,
+				DAFDA12626EBACAD009ADDAE /* CaptureQuality.swift in Sources */,
 				AAEAC16426EB81FD000D0DDD /* AppDelegate.swift in Sources */,
+				DAFDA16B26EBADB6009ADDAE /* UIView+JJFloatingActionButton.swift in Sources */,
+				DAFDA16E26EBADB6009ADDAE /* AnimationConfiguration.swift in Sources */,
+				DAFDA12126EBACAC009ADDAE /* UIColor+Extension.swift in Sources */,
+				DAFDA12B26EBACAD009ADDAE /* CALayer+Conversion.swift in Sources */,
+				DAFDA12526EBACAD009ADDAE /* CustomBlurView.swift in Sources */,
+				DAFDA12426EBACAD009ADDAE /* UILabelExtension.swift in Sources */,
+				DAFDA16F26EBADB6009ADDAE /* JJActionItem.swift in Sources */,
+				DAFDA1A526EBADDD009ADDAE /* BottomPopupUtils.swift in Sources */,
+				DAFDA18D26EBADB6009ADDAE /* CALayer+Conversion.swift in Sources */,
+				DAFDA18926EBADB6009ADDAE /* CGRect+Conversion.swift in Sources */,
+				DAFDA11D26EBACAC009ADDAE /* CGRectExtension.swift in Sources */,
+				DAFDA17B26EBADB6009ADDAE /* ShockFeedbackEngine.swift in Sources */,
+				DAFDA17A26EBADB6009ADDAE /* Shock.swift in Sources */,
+				DAFDA18326EBADB6009ADDAE /* UIColor+Extension.swift in Sources */,
+				DAFDA10826EBAC82009ADDAE /* HFSAppCommon.swift in Sources */,
+				DAFDA18626EBADB6009ADDAE /* UILabelExtension.swift in Sources */,
+				DAFDA19926EBADB6009ADDAE /* HFSNiblessView.swift in Sources */,
+				DAFDA17926EBADB6009ADDAE /* UIDevice+Extension.swift in Sources */,
+				DAFDA1AA26EBADDD009ADDAE /* BottomPopupPresentAnimator.swift in Sources */,
+				DAFDA17526EBADB6009ADDAE /* JJFloatingActionButton.swift in Sources */,
+				DAFDA12926EBACAD009ADDAE /* UIImage+Blur.swift in Sources */,
+				DAFDA18B26EBADB6009ADDAE /* UIImage+Blur.swift in Sources */,
+				DAFDA1A726EBADDD009ADDAE /* BottomPopupDismissInteractionController.swift in Sources */,
+				DAFDA1A926EBADDD009ADDAE /* BottomPopupDismissAnimator.swift in Sources */,
+				DAFDA17F26EBADB6009ADDAE /* ShockPattern.swift in Sources */,
+				DAFDA1AB26EBADDD009ADDAE /* BottomPopupTransitionHandler.swift in Sources */,
+				DAFDA18026EBADB6009ADDAE /* CGRectExtension.swift in Sources */,
+				DAFDA12A26EBACAD009ADDAE /* BlurLayer.swift in Sources */,
+				DAFDA1A826EBADDD009ADDAE /* BottomPopupNavigationController.swift in Sources */,
+				DAFDA18226EBADB6009ADDAE /* UIButtonExtension.swift in Sources */,
+				DAFDA18E26EBADB6009ADDAE /* UINavgationControllerExtension.swift in Sources */,
+				DAFDA17226EBADB6009ADDAE /* UIColor+JJFloatingActionButton.swift in Sources */,
+				DAFDA12726EBACAD009ADDAE /* CGRect+Conversion.swift in Sources */,
+				DAFDA17026EBADB6009ADDAE /* JJFloatingActionButtonState.swift in Sources */,
+				DAFDA18726EBADB6009ADDAE /* CustomBlurView.swift in Sources */,
+				DAFDA12026EBACAC009ADDAE /* UIButtonExtension.swift in Sources */,
+				DAFDA12C26EBACAD009ADDAE /* UINavgationControllerExtension.swift in Sources */,
+				DAFDA17D26EBADB6009ADDAE /* TapticEngine.swift in Sources */,
+				DAFDA18526EBADB6009ADDAE /* CGContext+CGImage.swift in Sources */,
+				DAFDA19B26EBADB6009ADDAE /* HFSNiblessTableViewCell.swift in Sources */,
+				DAFDA19026EBADB6009ADDAE /* CAGradientLayerExtensions.swift in Sources */,
+				DAFDA17326EBADB6009ADDAE /* JJFloatingActionButton+Placement.swift in Sources */,
+				DAFDA17126EBADB6009ADDAE /* JJActionItemTitlePosition.swift in Sources */,
+				DAFDA11F26EBACAC009ADDAE /* CAGradientLayerExtensions.swift in Sources */,
+				DAFDA18A26EBADB6009ADDAE /* TrackingMode.swift in Sources */,
 				AAEAC16626EB81FD000D0DDD /* SceneDelegate.swift in Sources */,
+				DAFDA12D26EBACAD009ADDAE /* DynamicBlurView.swift in Sources */,
+				DAFDA12326EBACAD009ADDAE /* CGContext+CGImage.swift in Sources */,
+				DAFDA17E26EBADB6009ADDAE /* UIButton+Shock.swift in Sources */,
+				DAFDA11E26EBACAC009ADDAE /* CGSize+Extension.swift in Sources */,
+				DAFDA19A26EBADB6009ADDAE /* HFSNiblessViewController.swift in Sources */,
 				AAEAC16E26EB81FD000D0DDD /* SportScanner.xcdatamodeld in Sources */,
+				DAFDA18426EBADB6009ADDAE /* CGImage+Accelerate.swift in Sources */,
+				DAFDA18126EBADB6009ADDAE /* CGSize+Extension.swift in Sources */,
+				DAFDA17626EBADB6009ADDAE /* JJCircleView.swift in Sources */,
+				DAFDA16C26EBADB6009ADDAE /* JJFloatingActionButtonDelegate.swift in Sources */,
+				DAFDA16D26EBADB6009ADDAE /* Styles.swift in Sources */,
+				DAFDA1AC26EBADDD009ADDAE /* BottomPopupPresentationController.swift in Sources */,
+				DAFDA12226EBACAC009ADDAE /* CGImage+Accelerate.swift in Sources */,
+				DAFDA16A26EBADB6009ADDAE /* JJFloatingActionButton+Animation.swift in Sources */,
+				DAFDA17426EBADB6009ADDAE /* LayerProperties.swift in Sources */,
+				DAFDA18826EBADB6009ADDAE /* CaptureQuality.swift in Sources */,
+				DAFDA1A626EBADDD009ADDAE /* BottomPopupViewController.swift in Sources */,
+				DAFDA18C26EBADB6009ADDAE /* BlurLayer.swift in Sources */,
+				DAFDA12826EBACAD009ADDAE /* TrackingMode.swift in Sources */,
+				DAFDA17C26EBADB6009ADDAE /* ShockPatternEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +862,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -556,6 +924,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -570,6 +939,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";

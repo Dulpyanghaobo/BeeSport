@@ -11,7 +11,6 @@ target 'SportScanner' do
     #Swift库
     pod 'SnapKit', '~> 5.0.0'
     pod 'Hero'
-    pod 
   end
 
   target 'SportScannerUITests' do
