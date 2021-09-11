@@ -11,7 +11,11 @@ target 'SportScanner' do
     pod 'SnapKit', '~> 5.0.0'
     pod 'Hero'
     pod 'lottie-ios'
-  
-  
-
+    pod 'Moya/Combine', '~> 15.0'
+    pod 'SwiftyJSON'
+    pod 'SwiftDate'
+    pod 'RAMAnimatedTabBarController'
+    pod 'Kingfisher'
+    pod 'URLNavigator'
+    pod 'ESPullToRefresh'
 end

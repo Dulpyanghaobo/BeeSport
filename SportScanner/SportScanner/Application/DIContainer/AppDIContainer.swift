@@ -21,5 +21,15 @@ final class AppDIContainer {
 //        let apiDataNetwork = DefaultNetworkService(config: config)
 //        return DefaultDataTransferService(with: apiDataNetwork)
 //    }()
-
+//    func makeHomeSceneDIContainer() -> HFSHomeViewController {
+//        return
+//    }
+    
+    // MARK: - DIContainers of scenes
+    func makeHomesSceneDIContainer() -> HomeSceneDIContainer {
+      
+        let dependencies = HomeSceneDIContainer.Dependencies()
+        
+        return HomeSceneDIContainer(dependencies: dependencies)
+    }
 }

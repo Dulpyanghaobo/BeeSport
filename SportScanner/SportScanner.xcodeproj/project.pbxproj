@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AAEAC16426EB81FD000D0DDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAC16326EB81FD000D0DDD /* AppDelegate.swift */; };
-		AAEAC16626EB81FD000D0DDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAC16526EB81FD000D0DDD /* SceneDelegate.swift */; };
-		AAEAC16826EB81FD000D0DDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAC16726EB81FD000D0DDD /* ViewController.swift */; };
-		AAEAC16B26EB81FD000D0DDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEAC16926EB81FD000D0DDD /* Main.storyboard */; };
 		AAEAC16E26EB81FD000D0DDD /* SportScanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAEAC16C26EB81FD000D0DDD /* SportScanner.xcdatamodeld */; };
 		AAEAC17026EB81FE000D0DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAEAC16F26EB81FE000D0DDD /* Assets.xcassets */; };
 		AAEAC17326EB81FE000D0DDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEAC17126EB81FE000D0DDD /* LaunchScreen.storyboard */; };
@@ -22,6 +19,16 @@
 		DACD14F926EC4EC000E6EAB7 /* AppDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACD14F826EC4EC000E6EAB7 /* AppDIContainer.swift */; };
 		DACD14FB26EC50B500E6EAB7 /* AppFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACD14FA26EC50B500E6EAB7 /* AppFlowCoordinator.swift */; };
 		DACD14FD26EC51E000E6EAB7 /* AppAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACD14FC26EC51E000E6EAB7 /* AppAppearance.swift */; };
+		DAF4564A26EC9E3F00A68D19 /* URLNavigationMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4564926EC9E3F00A68D19 /* URLNavigationMap.swift */; };
+		DAF4564C26ECA23E00A68D19 /* HFSRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4564B26ECA23D00A68D19 /* HFSRouter.swift */; };
+		DAF4564E26ECA91800A68D19 /* CompositionRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4564D26ECA91800A68D19 /* CompositionRoot.swift */; };
+		DAF4565026ECD9B300A68D19 /* HomeSceneDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4564F26ECD9B300A68D19 /* HomeSceneDIContainer.swift */; };
+		DAF4565226ECEE3300A68D19 /* HFSHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4565126ECEE3300A68D19 /* HFSHomeViewController.swift */; };
+		DAF4565426ECF18800A68D19 /* HFSHomeFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4565326ECF18800A68D19 /* HFSHomeFlowCoordinator.swift */; };
+		DAF4565826ECF32300A68D19 /* HFSHomeViewModelActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4565726ECF32300A68D19 /* HFSHomeViewModelActions.swift */; };
+		DAF4565B26ECF5C900A68D19 /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4565A26ECF5C900A68D19 /* StoryboardInstantiable.swift */; };
+		DAF4565D26ECF64500A68D19 /* HFSHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF4565C26ECF64500A68D19 /* HFSHomeViewModel.swift */; };
+		DAF4565F26ECFC3000A68D19 /* HFSHomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF4565E26ECFC3000A68D19 /* HFSHomeViewController.storyboard */; };
 		DAFDA10826EBAC82009ADDAE /* HFSAppCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA0FF26EBAC81009ADDAE /* HFSAppCommon.swift */; };
 		DAFDA11D26EBACAC009ADDAE /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA10A26EBACAC009ADDAE /* CGRectExtension.swift */; };
 		DAFDA11E26EBACAC009ADDAE /* CGSize+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA10B26EBACAC009ADDAE /* CGSize+Extension.swift */; };
@@ -60,23 +67,6 @@
 		DAFDA17D26EBADB6009ADDAE /* TapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14426EBADB6009ADDAE /* TapticEngine.swift */; };
 		DAFDA17E26EBADB6009ADDAE /* UIButton+Shock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14526EBADB6009ADDAE /* UIButton+Shock.swift */; };
 		DAFDA17F26EBADB6009ADDAE /* ShockPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14626EBADB6009ADDAE /* ShockPattern.swift */; };
-		DAFDA18026EBADB6009ADDAE /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14926EBADB6009ADDAE /* CGRectExtension.swift */; };
-		DAFDA18126EBADB6009ADDAE /* CGSize+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14A26EBADB6009ADDAE /* CGSize+Extension.swift */; };
-		DAFDA18226EBADB6009ADDAE /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14C26EBADB6009ADDAE /* UIButtonExtension.swift */; };
-		DAFDA18326EBADB6009ADDAE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14D26EBADB6009ADDAE /* UIColor+Extension.swift */; };
-		DAFDA18426EBADB6009ADDAE /* CGImage+Accelerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14E26EBADB6009ADDAE /* CGImage+Accelerate.swift */; };
-		DAFDA18526EBADB6009ADDAE /* CGContext+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA14F26EBADB6009ADDAE /* CGContext+CGImage.swift */; };
-		DAFDA18626EBADB6009ADDAE /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15026EBADB6009ADDAE /* UILabelExtension.swift */; };
-		DAFDA18726EBADB6009ADDAE /* CustomBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15126EBADB6009ADDAE /* CustomBlurView.swift */; };
-		DAFDA18826EBADB6009ADDAE /* CaptureQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15226EBADB6009ADDAE /* CaptureQuality.swift */; };
-		DAFDA18926EBADB6009ADDAE /* CGRect+Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15326EBADB6009ADDAE /* CGRect+Conversion.swift */; };
-		DAFDA18A26EBADB6009ADDAE /* TrackingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15426EBADB6009ADDAE /* TrackingMode.swift */; };
-		DAFDA18B26EBADB6009ADDAE /* UIImage+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15526EBADB6009ADDAE /* UIImage+Blur.swift */; };
-		DAFDA18C26EBADB6009ADDAE /* BlurLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15626EBADB6009ADDAE /* BlurLayer.swift */; };
-		DAFDA18D26EBADB6009ADDAE /* CALayer+Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15726EBADB6009ADDAE /* CALayer+Conversion.swift */; };
-		DAFDA18E26EBADB6009ADDAE /* UINavgationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15826EBADB6009ADDAE /* UINavgationControllerExtension.swift */; };
-		DAFDA18F26EBADB6009ADDAE /* DynamicBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15926EBADB6009ADDAE /* DynamicBlurView.swift */; };
-		DAFDA19026EBADB6009ADDAE /* CAGradientLayerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA15B26EBADB6009ADDAE /* CAGradientLayerExtensions.swift */; };
 		DAFDA19926EBADB6009ADDAE /* HFSNiblessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA16726EBADB6009ADDAE /* HFSNiblessView.swift */; };
 		DAFDA19A26EBADB6009ADDAE /* HFSNiblessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA16826EBADB6009ADDAE /* HFSNiblessViewController.swift */; };
 		DAFDA19B26EBADB6009ADDAE /* HFSNiblessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA16926EBADB6009ADDAE /* HFSNiblessTableViewCell.swift */; };
@@ -112,9 +102,6 @@
 		53ACE0FC44A1AAE433DADD1C /* Pods-SportScannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportScannerTests.debug.xcconfig"; path = "Target Support Files/Pods-SportScannerTests/Pods-SportScannerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AAEAC16026EB81FD000D0DDD /* SportScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEAC16326EB81FD000D0DDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AAEAC16526EB81FD000D0DDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AAEAC16726EB81FD000D0DDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AAEAC16A26EB81FD000D0DDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAEAC16D26EB81FD000D0DDD /* SportScanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportScanner.xcdatamodel; sourceTree = "<group>"; };
 		AAEAC16F26EB81FE000D0DDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAEAC17226EB81FE000D0DDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -132,6 +119,16 @@
 		DACD14F826EC4EC000E6EAB7 /* AppDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIContainer.swift; sourceTree = "<group>"; };
 		DACD14FA26EC50B500E6EAB7 /* AppFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowCoordinator.swift; sourceTree = "<group>"; };
 		DACD14FC26EC51E000E6EAB7 /* AppAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAppearance.swift; sourceTree = "<group>"; };
+		DAF4564926EC9E3F00A68D19 /* URLNavigationMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLNavigationMap.swift; sourceTree = "<group>"; };
+		DAF4564B26ECA23D00A68D19 /* HFSRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSRouter.swift; sourceTree = "<group>"; };
+		DAF4564D26ECA91800A68D19 /* CompositionRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionRoot.swift; sourceTree = "<group>"; };
+		DAF4564F26ECD9B300A68D19 /* HomeSceneDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSceneDIContainer.swift; sourceTree = "<group>"; };
+		DAF4565126ECEE3300A68D19 /* HFSHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSHomeViewController.swift; sourceTree = "<group>"; };
+		DAF4565326ECF18800A68D19 /* HFSHomeFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSHomeFlowCoordinator.swift; sourceTree = "<group>"; };
+		DAF4565726ECF32300A68D19 /* HFSHomeViewModelActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSHomeViewModelActions.swift; sourceTree = "<group>"; };
+		DAF4565A26ECF5C900A68D19 /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
+		DAF4565C26ECF64500A68D19 /* HFSHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSHomeViewModel.swift; sourceTree = "<group>"; };
+		DAF4565E26ECFC3000A68D19 /* HFSHomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HFSHomeViewController.storyboard; sourceTree = "<group>"; };
 		DAFDA0FF26EBAC81009ADDAE /* HFSAppCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFSAppCommon.swift; sourceTree = "<group>"; };
 		DAFDA10A26EBACAC009ADDAE /* CGRectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectExtension.swift; sourceTree = "<group>"; };
 		DAFDA10B26EBACAC009ADDAE /* CGSize+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Extension.swift"; sourceTree = "<group>"; };
@@ -170,23 +167,6 @@
 		DAFDA14426EBADB6009ADDAE /* TapticEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapticEngine.swift; sourceTree = "<group>"; };
 		DAFDA14526EBADB6009ADDAE /* UIButton+Shock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Shock.swift"; sourceTree = "<group>"; };
 		DAFDA14626EBADB6009ADDAE /* ShockPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShockPattern.swift; sourceTree = "<group>"; };
-		DAFDA14926EBADB6009ADDAE /* CGRectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectExtension.swift; sourceTree = "<group>"; };
-		DAFDA14A26EBADB6009ADDAE /* CGSize+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Extension.swift"; sourceTree = "<group>"; };
-		DAFDA14C26EBADB6009ADDAE /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
-		DAFDA14D26EBADB6009ADDAE /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		DAFDA14E26EBADB6009ADDAE /* CGImage+Accelerate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+Accelerate.swift"; sourceTree = "<group>"; };
-		DAFDA14F26EBADB6009ADDAE /* CGContext+CGImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGContext+CGImage.swift"; sourceTree = "<group>"; };
-		DAFDA15026EBADB6009ADDAE /* UILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
-		DAFDA15126EBADB6009ADDAE /* CustomBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBlurView.swift; sourceTree = "<group>"; };
-		DAFDA15226EBADB6009ADDAE /* CaptureQuality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureQuality.swift; sourceTree = "<group>"; };
-		DAFDA15326EBADB6009ADDAE /* CGRect+Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Conversion.swift"; sourceTree = "<group>"; };
-		DAFDA15426EBADB6009ADDAE /* TrackingMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingMode.swift; sourceTree = "<group>"; };
-		DAFDA15526EBADB6009ADDAE /* UIImage+Blur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Blur.swift"; sourceTree = "<group>"; };
-		DAFDA15626EBADB6009ADDAE /* BlurLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurLayer.swift; sourceTree = "<group>"; };
-		DAFDA15726EBADB6009ADDAE /* CALayer+Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Conversion.swift"; sourceTree = "<group>"; };
-		DAFDA15826EBADB6009ADDAE /* UINavgationControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavgationControllerExtension.swift; sourceTree = "<group>"; };
-		DAFDA15926EBADB6009ADDAE /* DynamicBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicBlurView.swift; sourceTree = "<group>"; };
-		DAFDA15B26EBADB6009ADDAE /* CAGradientLayerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAGradientLayerExtensions.swift; sourceTree = "<group>"; };
 		DAFDA16726EBADB6009ADDAE /* HFSNiblessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFSNiblessView.swift; sourceTree = "<group>"; };
 		DAFDA16826EBADB6009ADDAE /* HFSNiblessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFSNiblessViewController.swift; sourceTree = "<group>"; };
 		DAFDA16926EBADB6009ADDAE /* HFSNiblessTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFSNiblessTableViewCell.swift; sourceTree = "<group>"; };
@@ -303,17 +283,24 @@
 		AAEAC19626EB831F000D0DDD /* infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = infrastructure;
+			sourceTree = "<group>";
+		};
+		DA50292B26EC84DE00E41637 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DAF4565926ECF5BB00A68D19 /* Protocols */,
+				DAF4564826EC9E2A00A68D19 /* Navigations */,
 				DAFDA19C26EBADDD009ADDAE /* BottomPopupController */,
 				DAFDA12E26EBADB6009ADDAE /* FloatButton */,
 				DAFDA13F26EBADB6009ADDAE /* ShockEngine */,
-				DAFDA14726EBADB6009ADDAE /* SwiftCategories */,
 				DAFDA16526EBADB6009ADDAE /* UIComponent */,
 				DAFDA10C26EBACAC009ADDAE /* CoreAnimation */,
 				DAFDA10926EBACAC009ADDAE /* CoreGraphics */,
 				DAFDA10E26EBACAC009ADDAE /* UIKit */,
-				DAFDA0FF26EBAC81009ADDAE /* HFSAppCommon.swift */,
 			);
-			path = infrastructure;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		DACD14EF26EC4B5800E6EAB7 /* Application */ = {
@@ -321,7 +308,6 @@
 			children = (
 				DACD14F726EC4EB200E6EAB7 /* DIContainer */,
 				AAEAC16326EB81FD000D0DDD /* AppDelegate.swift */,
-				AAEAC16526EB81FD000D0DDD /* SceneDelegate.swift */,
 				DACD14F526EC4E9A00E6EAB7 /* AppConfiguration.swift */,
 				DACD14FA26EC50B500E6EAB7 /* AppFlowCoordinator.swift */,
 				DACD14FC26EC51E000E6EAB7 /* AppAppearance.swift */,
@@ -343,8 +329,9 @@
 		DACD14F126EC4BDD00E6EAB7 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				AAEAC16726EB81FD000D0DDD /* ViewController.swift */,
-				AAEAC16926EB81FD000D0DDD /* Main.storyboard */,
+				DAF4564626EC8C0500A68D19 /* Mime */,
+				DAF4564526EC8BFE00A68D19 /* Home */,
+				DA50292B26EC84DE00E41637 /* Utils */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -359,6 +346,8 @@
 		DACD14F326EC4BEA00E6EAB7 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				DAFDA0FF26EBAC81009ADDAE /* HFSAppCommon.swift */,
+				DAF4564D26ECA91800A68D19 /* CompositionRoot.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -367,8 +356,61 @@
 			isa = PBXGroup;
 			children = (
 				DACD14F826EC4EC000E6EAB7 /* AppDIContainer.swift */,
+				DAF4564F26ECD9B300A68D19 /* HomeSceneDIContainer.swift */,
 			);
 			path = DIContainer;
+			sourceTree = "<group>";
+		};
+		DAF4564526EC8BFE00A68D19 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DAF4565326ECF18800A68D19 /* HFSHomeFlowCoordinator.swift */,
+				DAF4565526ECF18D00A68D19 /* ViewController */,
+				DAF4565626ECF30D00A68D19 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DAF4564626EC8C0500A68D19 /* Mime */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mime;
+			sourceTree = "<group>";
+		};
+		DAF4564826EC9E2A00A68D19 /* Navigations */ = {
+			isa = PBXGroup;
+			children = (
+				DAF4564926EC9E3F00A68D19 /* URLNavigationMap.swift */,
+				DAF4564B26ECA23D00A68D19 /* HFSRouter.swift */,
+			);
+			path = Navigations;
+			sourceTree = "<group>";
+		};
+		DAF4565526ECF18D00A68D19 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DAF4565126ECEE3300A68D19 /* HFSHomeViewController.swift */,
+				DAF4565E26ECFC3000A68D19 /* HFSHomeViewController.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DAF4565626ECF30D00A68D19 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DAF4565726ECF32300A68D19 /* HFSHomeViewModelActions.swift */,
+				DAF4565C26ECF64500A68D19 /* HFSHomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DAF4565926ECF5BB00A68D19 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DAF4565A26ECF5C900A68D19 /* StoryboardInstantiable.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		DAFDA10926EBACAC009ADDAE /* CoreGraphics */ = {
@@ -377,8 +419,7 @@
 				DAFDA10A26EBACAC009ADDAE /* CGRectExtension.swift */,
 				DAFDA10B26EBACAC009ADDAE /* CGSize+Extension.swift */,
 			);
-			name = CoreGraphics;
-			path = SwiftCategories/CoreGraphics;
+			path = CoreGraphics;
 			sourceTree = "<group>";
 		};
 		DAFDA10C26EBACAC009ADDAE /* CoreAnimation */ = {
@@ -386,8 +427,7 @@
 			children = (
 				DAFDA10D26EBACAC009ADDAE /* CAGradientLayerExtensions.swift */,
 			);
-			name = CoreAnimation;
-			path = SwiftCategories/CoreAnimation;
+			path = CoreAnimation;
 			sourceTree = "<group>";
 		};
 		DAFDA10E26EBACAC009ADDAE /* UIKit */ = {
@@ -408,8 +448,7 @@
 				DAFDA11B26EBACAC009ADDAE /* UINavgationControllerExtension.swift */,
 				DAFDA11C26EBACAC009ADDAE /* DynamicBlurView.swift */,
 			);
-			name = UIKit;
-			path = SwiftCategories/UIKit;
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 		DAFDA12E26EBADB6009ADDAE /* FloatButton */ = {
@@ -444,54 +483,6 @@
 				DAFDA14626EBADB6009ADDAE /* ShockPattern.swift */,
 			);
 			path = ShockEngine;
-			sourceTree = "<group>";
-		};
-		DAFDA14726EBADB6009ADDAE /* SwiftCategories */ = {
-			isa = PBXGroup;
-			children = (
-				DAFDA14826EBADB6009ADDAE /* CoreGraphics */,
-				DAFDA14B26EBADB6009ADDAE /* UIKit */,
-				DAFDA15A26EBADB6009ADDAE /* CoreAnimation */,
-			);
-			path = SwiftCategories;
-			sourceTree = "<group>";
-		};
-		DAFDA14826EBADB6009ADDAE /* CoreGraphics */ = {
-			isa = PBXGroup;
-			children = (
-				DAFDA14926EBADB6009ADDAE /* CGRectExtension.swift */,
-				DAFDA14A26EBADB6009ADDAE /* CGSize+Extension.swift */,
-			);
-			path = CoreGraphics;
-			sourceTree = "<group>";
-		};
-		DAFDA14B26EBADB6009ADDAE /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				DAFDA14C26EBADB6009ADDAE /* UIButtonExtension.swift */,
-				DAFDA14D26EBADB6009ADDAE /* UIColor+Extension.swift */,
-				DAFDA14E26EBADB6009ADDAE /* CGImage+Accelerate.swift */,
-				DAFDA14F26EBADB6009ADDAE /* CGContext+CGImage.swift */,
-				DAFDA15026EBADB6009ADDAE /* UILabelExtension.swift */,
-				DAFDA15126EBADB6009ADDAE /* CustomBlurView.swift */,
-				DAFDA15226EBADB6009ADDAE /* CaptureQuality.swift */,
-				DAFDA15326EBADB6009ADDAE /* CGRect+Conversion.swift */,
-				DAFDA15426EBADB6009ADDAE /* TrackingMode.swift */,
-				DAFDA15526EBADB6009ADDAE /* UIImage+Blur.swift */,
-				DAFDA15626EBADB6009ADDAE /* BlurLayer.swift */,
-				DAFDA15726EBADB6009ADDAE /* CALayer+Conversion.swift */,
-				DAFDA15826EBADB6009ADDAE /* UINavgationControllerExtension.swift */,
-				DAFDA15926EBADB6009ADDAE /* DynamicBlurView.swift */,
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
-		DAFDA15A26EBADB6009ADDAE /* CoreAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				DAFDA15B26EBADB6009ADDAE /* CAGradientLayerExtensions.swift */,
-			);
-			path = CoreAnimation;
 			sourceTree = "<group>";
 		};
 		DAFDA16526EBADB6009ADDAE /* UIComponent */ = {
@@ -632,10 +623,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAF4565F26ECFC3000A68D19 /* HFSHomeViewController.storyboard in Resources */,
 				AAEAC17326EB81FE000D0DDD /* LaunchScreen.storyboard in Resources */,
 				DACD14AD26EC383500E6EAB7 /* GoogleService-Info.plist in Resources */,
 				AAEAC17026EB81FE000D0DDD /* Assets.xcassets in Resources */,
-				AAEAC16B26EB81FD000D0DDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,11 +693,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAEAC16826EB81FD000D0DDD /* ViewController.swift in Sources */,
-				DAFDA18F26EBADB6009ADDAE /* DynamicBlurView.swift in Sources */,
 				DAFDA12626EBACAD009ADDAE /* CaptureQuality.swift in Sources */,
 				AAEAC16426EB81FD000D0DDD /* AppDelegate.swift in Sources */,
 				DAFDA16B26EBADB6009ADDAE /* UIView+JJFloatingActionButton.swift in Sources */,
+				DAF4565D26ECF64500A68D19 /* HFSHomeViewModel.swift in Sources */,
 				DAFDA16E26EBADB6009ADDAE /* AnimationConfiguration.swift in Sources */,
 				DAFDA12126EBACAC009ADDAE /* UIColor+Extension.swift in Sources */,
 				DAFDA12B26EBACAD009ADDAE /* CALayer+Conversion.swift in Sources */,
@@ -715,67 +705,58 @@
 				DAFDA12426EBACAD009ADDAE /* UILabelExtension.swift in Sources */,
 				DAFDA16F26EBADB6009ADDAE /* JJActionItem.swift in Sources */,
 				DAFDA1A526EBADDD009ADDAE /* BottomPopupUtils.swift in Sources */,
-				DAFDA18D26EBADB6009ADDAE /* CALayer+Conversion.swift in Sources */,
-				DAFDA18926EBADB6009ADDAE /* CGRect+Conversion.swift in Sources */,
+				DAF4565B26ECF5C900A68D19 /* StoryboardInstantiable.swift in Sources */,
 				DAFDA11D26EBACAC009ADDAE /* CGRectExtension.swift in Sources */,
 				DAFDA17B26EBADB6009ADDAE /* ShockFeedbackEngine.swift in Sources */,
 				DAFDA17A26EBADB6009ADDAE /* Shock.swift in Sources */,
-				DAFDA18326EBADB6009ADDAE /* UIColor+Extension.swift in Sources */,
+				DAF4565026ECD9B300A68D19 /* HomeSceneDIContainer.swift in Sources */,
 				DACD14FB26EC50B500E6EAB7 /* AppFlowCoordinator.swift in Sources */,
 				DAFDA10826EBAC82009ADDAE /* HFSAppCommon.swift in Sources */,
-				DAFDA18626EBADB6009ADDAE /* UILabelExtension.swift in Sources */,
+				DAF4564C26ECA23E00A68D19 /* HFSRouter.swift in Sources */,
 				DAFDA19926EBADB6009ADDAE /* HFSNiblessView.swift in Sources */,
 				DAFDA17926EBADB6009ADDAE /* UIDevice+Extension.swift in Sources */,
 				DAFDA1AA26EBADDD009ADDAE /* BottomPopupPresentAnimator.swift in Sources */,
 				DAFDA17526EBADB6009ADDAE /* JJFloatingActionButton.swift in Sources */,
 				DAFDA12926EBACAD009ADDAE /* UIImage+Blur.swift in Sources */,
-				DAFDA18B26EBADB6009ADDAE /* UIImage+Blur.swift in Sources */,
+				DAF4564A26EC9E3F00A68D19 /* URLNavigationMap.swift in Sources */,
 				DAFDA1A726EBADDD009ADDAE /* BottomPopupDismissInteractionController.swift in Sources */,
 				DACD14FD26EC51E000E6EAB7 /* AppAppearance.swift in Sources */,
 				DAFDA1A926EBADDD009ADDAE /* BottomPopupDismissAnimator.swift in Sources */,
 				DAFDA17F26EBADB6009ADDAE /* ShockPattern.swift in Sources */,
 				DAFDA1AB26EBADDD009ADDAE /* BottomPopupTransitionHandler.swift in Sources */,
-				DAFDA18026EBADB6009ADDAE /* CGRectExtension.swift in Sources */,
 				DAFDA12A26EBACAD009ADDAE /* BlurLayer.swift in Sources */,
 				DAFDA1A826EBADDD009ADDAE /* BottomPopupNavigationController.swift in Sources */,
 				DACD14F626EC4E9A00E6EAB7 /* AppConfiguration.swift in Sources */,
-				DAFDA18226EBADB6009ADDAE /* UIButtonExtension.swift in Sources */,
-				DAFDA18E26EBADB6009ADDAE /* UINavgationControllerExtension.swift in Sources */,
 				DAFDA17226EBADB6009ADDAE /* UIColor+JJFloatingActionButton.swift in Sources */,
 				DAFDA12726EBACAD009ADDAE /* CGRect+Conversion.swift in Sources */,
 				DAFDA17026EBADB6009ADDAE /* JJFloatingActionButtonState.swift in Sources */,
-				DAFDA18726EBADB6009ADDAE /* CustomBlurView.swift in Sources */,
 				DAFDA12026EBACAC009ADDAE /* UIButtonExtension.swift in Sources */,
 				DAFDA12C26EBACAD009ADDAE /* UINavgationControllerExtension.swift in Sources */,
 				DAFDA17D26EBADB6009ADDAE /* TapticEngine.swift in Sources */,
-				DAFDA18526EBADB6009ADDAE /* CGContext+CGImage.swift in Sources */,
 				DAFDA19B26EBADB6009ADDAE /* HFSNiblessTableViewCell.swift in Sources */,
-				DAFDA19026EBADB6009ADDAE /* CAGradientLayerExtensions.swift in Sources */,
 				DAFDA17326EBADB6009ADDAE /* JJFloatingActionButton+Placement.swift in Sources */,
 				DAFDA17126EBADB6009ADDAE /* JJActionItemTitlePosition.swift in Sources */,
 				DAFDA11F26EBACAC009ADDAE /* CAGradientLayerExtensions.swift in Sources */,
-				DAFDA18A26EBADB6009ADDAE /* TrackingMode.swift in Sources */,
-				AAEAC16626EB81FD000D0DDD /* SceneDelegate.swift in Sources */,
 				DAFDA12D26EBACAD009ADDAE /* DynamicBlurView.swift in Sources */,
 				DAFDA12326EBACAD009ADDAE /* CGContext+CGImage.swift in Sources */,
 				DAFDA17E26EBADB6009ADDAE /* UIButton+Shock.swift in Sources */,
+				DAF4565226ECEE3300A68D19 /* HFSHomeViewController.swift in Sources */,
 				DAFDA11E26EBACAC009ADDAE /* CGSize+Extension.swift in Sources */,
+				DAF4565426ECF18800A68D19 /* HFSHomeFlowCoordinator.swift in Sources */,
 				DAFDA19A26EBADB6009ADDAE /* HFSNiblessViewController.swift in Sources */,
 				AAEAC16E26EB81FD000D0DDD /* SportScanner.xcdatamodeld in Sources */,
-				DAFDA18426EBADB6009ADDAE /* CGImage+Accelerate.swift in Sources */,
-				DAFDA18126EBADB6009ADDAE /* CGSize+Extension.swift in Sources */,
 				DAFDA17626EBADB6009ADDAE /* JJCircleView.swift in Sources */,
 				DAFDA16C26EBADB6009ADDAE /* JJFloatingActionButtonDelegate.swift in Sources */,
 				DAFDA16D26EBADB6009ADDAE /* Styles.swift in Sources */,
+				DAF4564E26ECA91800A68D19 /* CompositionRoot.swift in Sources */,
 				DAFDA1AC26EBADDD009ADDAE /* BottomPopupPresentationController.swift in Sources */,
 				DAFDA12226EBACAC009ADDAE /* CGImage+Accelerate.swift in Sources */,
 				DAFDA16A26EBADB6009ADDAE /* JJFloatingActionButton+Animation.swift in Sources */,
 				DAFDA17426EBADB6009ADDAE /* LayerProperties.swift in Sources */,
-				DAFDA18826EBADB6009ADDAE /* CaptureQuality.swift in Sources */,
 				DAFDA1A626EBADDD009ADDAE /* BottomPopupViewController.swift in Sources */,
-				DAFDA18C26EBADB6009ADDAE /* BlurLayer.swift in Sources */,
 				DAFDA12826EBACAD009ADDAE /* TrackingMode.swift in Sources */,
 				DAFDA17C26EBADB6009ADDAE /* ShockPatternEngine.swift in Sources */,
+				DAF4565826ECF32300A68D19 /* HFSHomeViewModelActions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -811,14 +792,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AAEAC16926EB81FD000D0DDD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AAEAC16A26EB81FD000D0DDD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AAEAC17126EB81FE000D0DDD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -10,7 +10,7 @@ import UIKit
 
 final class AppFlowCoordinator {
 
-    var navigationController: UINavigationController
+    var navigationController: UINavigationController?
     private let appDIContainer: AppDIContainer
     
     init(navigationController: UINavigationController,
@@ -20,9 +20,13 @@ final class AppFlowCoordinator {
     }
 
     func start() {
-//        // In App Flow we can check if user needs to login, if yes we would run login flow
-//        let moviesSceneDIContainer = appDIContainer.makeMoviesSceneDIContainer()
-//        let flow = moviesSceneDIContainer.makeMoviesSearchFlowCoordinator(navigationController: navigationController)
-//        flow.start()
+        
+        guard let navigationController = navigationController else {
+            return
+        }
+        // 进入首页
+        let homeScenceDIContainer = appDIContainer.makeHomesSceneDIContainer()
+        let flow = homeScenceDIContainer.makeHomeFlowCoordinator(navigationController: navigationController)
+        flow.start()
     }
 }
