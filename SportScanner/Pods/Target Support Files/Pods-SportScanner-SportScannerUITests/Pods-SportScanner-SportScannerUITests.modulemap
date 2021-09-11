@@ -1,6 +1,0 @@
-framework module Pods_SportScanner_SportScannerUITests {
-  umbrella header "Pods-SportScanner-SportScannerUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
