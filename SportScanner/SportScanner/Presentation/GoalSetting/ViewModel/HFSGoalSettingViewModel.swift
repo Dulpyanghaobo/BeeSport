@@ -24,6 +24,6 @@ protocol HFSGoalSettingViewModelInput {
 
 /// 操作事件
 protocol HFSGoalSettingViewModelOutput {
-    showPopView()
+    func showPopView()
     
 }

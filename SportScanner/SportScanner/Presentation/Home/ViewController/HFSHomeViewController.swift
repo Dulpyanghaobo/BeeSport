@@ -17,6 +17,14 @@ class HFSHomeViewController: UIViewController,StoryboardInstantiable {
         navigationController?.setNavigationBarHidden(true, animated: false)
     }
 
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        let goalSettingViewController = HFSGoalSettingViewController()
+        self.navigationController?.pushViewController(goalSettingViewController)
+    }
+    
     /// 依赖注入
     /// - Parameter viewModel: 通过数据创建视图
     /// - Returns: 返回视图

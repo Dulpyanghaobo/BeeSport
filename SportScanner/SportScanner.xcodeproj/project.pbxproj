@@ -26,6 +26,15 @@
 		DA44E38426EDB3D700775D74 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44E38326EDB3D700775D74 /* LoadingView.swift */; };
 		DA44E38626EDB4D800775D74 /* HFSGoalSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44E38526EDB4D800775D74 /* HFSGoalSettingViewController.swift */; };
 		DA44E38826EDE00000775D74 /* HFSGoalSettingWeightPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44E38726EDE00000775D74 /* HFSGoalSettingWeightPopView.swift */; };
+		DA44E38F26EE4F7E00775D74 /* HFSGoalSettingFirstScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44E38E26EE4F7E00775D74 /* HFSGoalSettingFirstScheduleView.swift */; };
+		DA44E39126EE51BF00775D74 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44E39026EE51BF00775D74 /* Gradients.swift */; };
+		DA44E39326EE51FF00775D74 /* Gradients+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44E39226EE51FF00775D74 /* Gradients+Layer.swift */; };
+		DA44E39526EE524500775D74 /* Gradients+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44E39426EE524500775D74 /* Gradients+Name.swift */; };
+		DA44E39826EE527200775D74 /* Gradients+Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44E39726EE527200775D74 /* Gradients+Direction.swift */; };
+		DA44E3A226EE53E600775D74 /* HFSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DA44E39B26EE53E600775D74 /* HFSColor.m */; };
+		DA44E3A326EE53E600775D74 /* HFSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = DA44E39E26EE53E600775D74 /* HFSFont.m */; };
+		DA44E3B226EE562100775D74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA44E3B426EE562100775D74 /* InfoPlist.strings */; };
+		DA44E3B626EE56C000775D74 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA44E3B826EE56C000775D74 /* Localizable.strings */; };
 		DACD14AD26EC383500E6EAB7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DACD14AC26EC383500E6EAB7 /* GoogleService-Info.plist */; };
 		DACD14F626EC4E9A00E6EAB7 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACD14F526EC4E9A00E6EAB7 /* AppConfiguration.swift */; };
 		DACD14F926EC4EC000E6EAB7 /* AppDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACD14F826EC4EC000E6EAB7 /* AppDIContainer.swift */; };
@@ -138,6 +147,21 @@
 		DA44E38326EDB3D700775D74 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		DA44E38526EDB4D800775D74 /* HFSGoalSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSGoalSettingViewController.swift; sourceTree = "<group>"; };
 		DA44E38726EDE00000775D74 /* HFSGoalSettingWeightPopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSGoalSettingWeightPopView.swift; sourceTree = "<group>"; };
+		DA44E38E26EE4F7E00775D74 /* HFSGoalSettingFirstScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSGoalSettingFirstScheduleView.swift; sourceTree = "<group>"; };
+		DA44E39026EE51BF00775D74 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
+		DA44E39226EE51FF00775D74 /* Gradients+Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gradients+Layer.swift"; sourceTree = "<group>"; };
+		DA44E39426EE524500775D74 /* Gradients+Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gradients+Name.swift"; sourceTree = "<group>"; };
+		DA44E39726EE527200775D74 /* Gradients+Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gradients+Direction.swift"; sourceTree = "<group>"; };
+		DA44E39A26EE53E600775D74 /* HFSFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSFont.h; sourceTree = "<group>"; };
+		DA44E39B26EE53E600775D74 /* HFSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSColor.m; sourceTree = "<group>"; };
+		DA44E39E26EE53E600775D74 /* HFSFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSFont.m; sourceTree = "<group>"; };
+		DA44E3A026EE53E600775D74 /* HFSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSColor.h; sourceTree = "<group>"; };
+		DA44E3AC26EE547800775D74 /* SportScanner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SportScanner-Bridging-Header.h"; sourceTree = "<group>"; };
+		DA44E3AF26EE55F000775D74 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		DA44E3B326EE562100775D74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA44E3B526EE562D00775D74 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		DA44E3B726EE56C000775D74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA44E3B926EE56C400775D74 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		DACD14AC26EC383500E6EAB7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DACD14F526EC4E9A00E6EAB7 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
 		DACD14F826EC4EC000E6EAB7 /* AppDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIContainer.swift; sourceTree = "<group>"; };
@@ -282,6 +306,7 @@
 				DACD14F026EC4B5E00E6EAB7 /* Resources */,
 				DACD14EF26EC4B5800E6EAB7 /* Application */,
 				AAEAC19626EB831F000D0DDD /* infrastructure */,
+				DA44E3AC26EE547800775D74 /* SportScanner-Bridging-Header.h */,
 			);
 			path = SportScanner;
 			sourceTree = "<group>";
@@ -391,6 +416,7 @@
 			children = (
 				DA44E38526EDB4D800775D74 /* HFSGoalSettingViewController.swift */,
 				DA44E38726EDE00000775D74 /* HFSGoalSettingWeightPopView.swift */,
+				DA44E38E26EE4F7E00775D74 /* HFSGoalSettingFirstScheduleView.swift */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -404,9 +430,34 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
+		DA44E39626EE525A00775D74 /* Gradients */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDA10D26EBACAC009ADDAE /* CAGradientLayerExtensions.swift */,
+				DA44E39026EE51BF00775D74 /* Gradients.swift */,
+				DA44E39226EE51FF00775D74 /* Gradients+Layer.swift */,
+				DA44E39426EE524500775D74 /* Gradients+Name.swift */,
+				DA44E39726EE527200775D74 /* Gradients+Direction.swift */,
+			);
+			path = Gradients;
+			sourceTree = "<group>";
+		};
+		DA44E39926EE53E600775D74 /* CSScreenDefine */ = {
+			isa = PBXGroup;
+			children = (
+				DA44E3A026EE53E600775D74 /* HFSColor.h */,
+				DA44E39B26EE53E600775D74 /* HFSColor.m */,
+				DA44E39A26EE53E600775D74 /* HFSFont.h */,
+				DA44E39E26EE53E600775D74 /* HFSFont.m */,
+			);
+			path = CSScreenDefine;
+			sourceTree = "<group>";
+		};
 		DA50292B26EC84DE00E41637 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				DA44E39926EE53E600775D74 /* CSScreenDefine */,
+				DAFDA10E26EBACAC009ADDAE /* UIKit */,
 				DA44E38026EDB39200775D74 /* Core */,
 				DAF4565926ECF5BB00A68D19 /* Protocols */,
 				DAF4564826EC9E2A00A68D19 /* Navigations */,
@@ -416,7 +467,6 @@
 				DAFDA16526EBADB6009ADDAE /* UIComponent */,
 				DAFDA10C26EBACAC009ADDAE /* CoreAnimation */,
 				DAFDA10926EBACAC009ADDAE /* CoreGraphics */,
-				DAFDA10E26EBACAC009ADDAE /* UIKit */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -440,6 +490,8 @@
 				AAEAC17126EB81FE000D0DDD /* LaunchScreen.storyboard */,
 				AAEAC17426EB81FE000D0DDD /* Info.plist */,
 				AAEAC16C26EB81FD000D0DDD /* SportScanner.xcdatamodeld */,
+				DA44E3B826EE56C000775D74 /* Localizable.strings */,
+				DA44E3B426EE562100775D74 /* InfoPlist.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -548,7 +600,6 @@
 		DAFDA10C26EBACAC009ADDAE /* CoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				DAFDA10D26EBACAC009ADDAE /* CAGradientLayerExtensions.swift */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -556,6 +607,7 @@
 		DAFDA10E26EBACAC009ADDAE /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				DA44E39626EE525A00775D74 /* Gradients */,
 				DAFDA10F26EBACAC009ADDAE /* UIButtonExtension.swift */,
 				DAFDA11026EBACAC009ADDAE /* UIColor+Extension.swift */,
 				DAFDA11126EBACAC009ADDAE /* CGImage+Accelerate.swift */,
@@ -729,6 +781,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = AAEAC15726EB81FD000D0DDD;
 			productRefGroup = AAEAC16126EB81FD000D0DDD /* Products */;
@@ -747,6 +800,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA44E3B626EE56C000775D74 /* Localizable.strings in Resources */,
+				DA44E3B226EE562100775D74 /* InfoPlist.strings in Resources */,
 				DAF4565F26ECFC3000A68D19 /* HFSHomeViewController.storyboard in Resources */,
 				AAEAC17326EB81FE000D0DDD /* LaunchScreen.storyboard in Resources */,
 				DACD14AD26EC383500E6EAB7 /* GoogleService-Info.plist in Resources */,
@@ -829,6 +884,7 @@
 				DACD14F926EC4EC000E6EAB7 /* AppDIContainer.swift in Sources */,
 				DAFDA12526EBACAD009ADDAE /* CustomBlurView.swift in Sources */,
 				DAFDA12426EBACAD009ADDAE /* UILabelExtension.swift in Sources */,
+				DA44E39326EE51FF00775D74 /* Gradients+Layer.swift in Sources */,
 				DAFDA16F26EBADB6009ADDAE /* JJActionItem.swift in Sources */,
 				DAFDA1A526EBADDD009ADDAE /* BottomPopupUtils.swift in Sources */,
 				DAF4565B26ECF5C900A68D19 /* StoryboardInstantiable.swift in Sources */,
@@ -856,6 +912,7 @@
 				DA44E36926ED998A00775D74 /* MimeViewController.swift in Sources */,
 				DAFDA17F26EBADB6009ADDAE /* ShockPattern.swift in Sources */,
 				DAFDA1AB26EBADDD009ADDAE /* BottomPopupTransitionHandler.swift in Sources */,
+				DA44E3A326EE53E600775D74 /* HFSFont.m in Sources */,
 				DAFDA12A26EBACAD009ADDAE /* BlurLayer.swift in Sources */,
 				DAFDA1A826EBADDD009ADDAE /* BottomPopupNavigationController.swift in Sources */,
 				DACD14F626EC4E9A00E6EAB7 /* AppConfiguration.swift in Sources */,
@@ -868,6 +925,8 @@
 				DAFDA17D26EBADB6009ADDAE /* TapticEngine.swift in Sources */,
 				DAFDA19B26EBADB6009ADDAE /* HFSNiblessTableViewCell.swift in Sources */,
 				DA44E36F26ED9CBA00775D74 /* HFSHomeGuideView.swift in Sources */,
+				DA44E38F26EE4F7E00775D74 /* HFSGoalSettingFirstScheduleView.swift in Sources */,
+				DA44E3A226EE53E600775D74 /* HFSColor.m in Sources */,
 				DAFDA17326EBADB6009ADDAE /* JJFloatingActionButton+Placement.swift in Sources */,
 				DA44E38226EDB3A200775D74 /* Observable.swift in Sources */,
 				DAFDA17126EBADB6009ADDAE /* JJActionItemTitlePosition.swift in Sources */,
@@ -881,15 +940,18 @@
 				DAF4565426ECF18800A68D19 /* HFSHomeFlowCoordinator.swift in Sources */,
 				DAFDA19A26EBADB6009ADDAE /* HFSNiblessViewController.swift in Sources */,
 				AAEAC16E26EB81FD000D0DDD /* SportScanner.xcdatamodeld in Sources */,
+				DA44E39126EE51BF00775D74 /* Gradients.swift in Sources */,
 				DAFDA17626EBADB6009ADDAE /* JJCircleView.swift in Sources */,
 				DAFDA16C26EBADB6009ADDAE /* JJFloatingActionButtonDelegate.swift in Sources */,
 				DAFDA16D26EBADB6009ADDAE /* Styles.swift in Sources */,
 				DAF4564E26ECA91800A68D19 /* CompositionRoot.swift in Sources */,
 				DAFDA1AC26EBADDD009ADDAE /* BottomPopupPresentationController.swift in Sources */,
 				DAFDA12226EBACAC009ADDAE /* CGImage+Accelerate.swift in Sources */,
+				DA44E39826EE527200775D74 /* Gradients+Direction.swift in Sources */,
 				DAFDA16A26EBADB6009ADDAE /* JJFloatingActionButton+Animation.swift in Sources */,
 				DAFDA17426EBADB6009ADDAE /* LayerProperties.swift in Sources */,
 				DAFDA1A626EBADDD009ADDAE /* BottomPopupViewController.swift in Sources */,
+				DA44E39526EE524500775D74 /* Gradients+Name.swift in Sources */,
 				DAFDA12826EBACAD009ADDAE /* TrackingMode.swift in Sources */,
 				DAFDA17C26EBADB6009ADDAE /* ShockPatternEngine.swift in Sources */,
 				DAF4565826ECF32300A68D19 /* HFSHomeViewModelActions.swift in Sources */,
@@ -932,8 +994,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				AAEAC17226EB81FE000D0DDD /* Base */,
+				DA44E3AF26EE55F000775D74 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DA44E3B426EE562100775D74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA44E3B326EE562100775D74 /* en */,
+				DA44E3B526EE562D00775D74 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DA44E3B826EE56C000775D74 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA44E3B726EE56C000775D74 /* en */,
+				DA44E3B926EE56C400775D74 /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -943,6 +1024,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1005,6 +1087,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1073,6 +1156,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Demo.SportScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yanghaobo/BeeSport/SportScanner/SportScanner/SportScanner-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1093,6 +1178,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Demo.SportScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yanghaobo/BeeSport/SportScanner/SportScanner/SportScanner-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
