@@ -14,13 +14,18 @@ class HFSHomeViewController: UIViewController,StoryboardInstantiable {
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel.viewDidLoad()
-        // Do any additional setup after loading the view.
+        navigationController?.setNavigationBarHidden(true, animated: false)
     }
-    
+
+    /// 依赖注入
+    /// - Parameter viewModel: 通过数据创建视图
+    /// - Returns: 返回视图
     static func create(with viewModel : HFSHomeViewModel) -> HFSHomeViewController {
         let view = HFSHomeViewController.instantiateViewController()
         view.viewModel = viewModel
         return view
     }
+    
+    
 
 }

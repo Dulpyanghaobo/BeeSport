@@ -31,7 +31,7 @@ final class HFSHomeFlowCoordinator {
         /// 依赖注入获取对应viewController
         let viewController = dependencies.makeHomeViewController(actions: actions)
         
-        self.navigationController?.pushViewController(viewController, animated: false)
+        self.navigationController?.pushViewController(viewController)
         self.homeViewController = viewController
         
     }

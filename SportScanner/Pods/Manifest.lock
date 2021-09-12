@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (5.4.3)
+  - CBFlashyTabBarController (0.8.3)
   - ESPullToRefresh (2.9.3)
   - Firebase/Analytics (8.5.0):
     - Firebase/Core
@@ -100,13 +101,13 @@ PODS:
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
   - PromisesObjC (2.0.0)
-  - RAMAnimatedTabBarController (5.2.0)
   - SnapKit (5.0.1)
   - SwiftDate (6.3.1)
   - SwiftyJSON (5.0.1)
   - URLNavigator (2.3.0)
 
 DEPENDENCIES:
+  - CBFlashyTabBarController
   - ESPullToRefresh
   - Firebase/Analytics
   - Firebase/Crashlytics
@@ -115,7 +116,6 @@ DEPENDENCIES:
   - LookinServer (~> 1.0.2)
   - lottie-ios
   - Moya/Combine (~> 15.0)
-  - RAMAnimatedTabBarController
   - SnapKit (~> 5.0.0)
   - SwiftDate
   - SwiftyJSON
@@ -124,6 +124,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - CBFlashyTabBarController
     - ESPullToRefresh
     - Firebase
     - FirebaseAnalytics
@@ -141,7 +142,6 @@ SPEC REPOS:
     - Moya
     - nanopb
     - PromisesObjC
-    - RAMAnimatedTabBarController
     - SnapKit
     - SwiftDate
     - SwiftyJSON
@@ -149,6 +149,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  CBFlashyTabBarController: bc6b11dd4cbc9b54785c8944156e2f4d4f03b088
   ESPullToRefresh: 0d68daa602b343c81753a1b95e09fd0bfcddfd40
   Firebase: ff8c73105b90e33e1dc6c8e5445d7adc2ccdc7c1
   FirebaseAnalytics: 96325c1e0acbd2bb805c6a613028b1fe599d6a37
@@ -166,12 +167,11 @@ SPEC CHECKSUMS:
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
-  RAMAnimatedTabBarController: 6863a386e7ae2ab227cd60aa73ab8ff56cdacfdd
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwiftDate: 72d28954e8e1c6c1c0f917ccc8005e4f83c7d4b2
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
   URLNavigator: 2593c0e2d293732ec5c44503cf54dceba1a68085
 
-PODFILE CHECKSUM: 4e2c087cdf1a768c5ca4836019bba78af7d5a57a
+PODFILE CHECKSUM: 3077f7b5b91b8865d1a80f721aa4f49b0389bf73
 
 COCOAPODS: 1.10.0

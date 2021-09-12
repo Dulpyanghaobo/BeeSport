@@ -14,7 +14,7 @@ target 'SportScanner' do
     pod 'Moya/Combine', '~> 15.0'
     pod 'SwiftyJSON'
     pod 'SwiftDate'
-    pod 'RAMAnimatedTabBarController'
+    pod 'CBFlashyTabBarController'
     pod 'Kingfisher'
     pod 'URLNavigator'
     pod 'ESPullToRefresh'

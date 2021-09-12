@@ -14,6 +14,18 @@
 		AAEAC17E26EB81FE000D0DDD /* SportScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAC17D26EB81FE000D0DDD /* SportScannerTests.swift */; };
 		AAEAC18926EB81FE000D0DDD /* SportScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAC18826EB81FE000D0DDD /* SportScannerUITests.swift */; };
 		D783A6FB8467CCAE4F5BCDCC /* Pods_SportScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7084E8C8EE8084149873FA /* Pods_SportScanner.framework */; };
+		DA44E36526ED95BB00775D74 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44E36426ED95BB00775D74 /* BaseNavigationController.swift */; };
+		DA44E36926ED998A00775D74 /* MimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44E36826ED998A00775D74 /* MimeViewController.swift */; };
+		DA44E36B26ED999A00775D74 /* MineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44E36A26ED999A00775D74 /* MineViewModel.swift */; };
+		DA44E36F26ED9CBA00775D74 /* HFSHomeGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44E36E26ED9CBA00775D74 /* HFSHomeGuideView.swift */; };
+		DA44E37426EDA33C00775D74 /* HFSBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44E37326EDA33C00775D74 /* HFSBrowserViewController.swift */; };
+		DA44E37626EDA34D00775D74 /* HFSBrowserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44E37526EDA34D00775D74 /* HFSBrowserViewModel.swift */; };
+		DA44E37B26EDB21700775D74 /* HFSGoalSettingFlowCoodinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44E37A26EDB21700775D74 /* HFSGoalSettingFlowCoodinator.swift */; };
+		DA44E37D26EDB25200775D74 /* HFSGoalSettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44E37C26EDB25200775D74 /* HFSGoalSettingViewModel.swift */; };
+		DA44E38226EDB3A200775D74 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44E38126EDB3A200775D74 /* Observable.swift */; };
+		DA44E38426EDB3D700775D74 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44E38326EDB3D700775D74 /* LoadingView.swift */; };
+		DA44E38626EDB4D800775D74 /* HFSGoalSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44E38526EDB4D800775D74 /* HFSGoalSettingViewController.swift */; };
+		DA44E38826EDE00000775D74 /* HFSGoalSettingWeightPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44E38726EDE00000775D74 /* HFSGoalSettingWeightPopView.swift */; };
 		DACD14AD26EC383500E6EAB7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DACD14AC26EC383500E6EAB7 /* GoogleService-Info.plist */; };
 		DACD14F626EC4E9A00E6EAB7 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACD14F526EC4E9A00E6EAB7 /* AppConfiguration.swift */; };
 		DACD14F926EC4EC000E6EAB7 /* AppDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACD14F826EC4EC000E6EAB7 /* AppDIContainer.swift */; };
@@ -114,6 +126,18 @@
 		AAEAC18A26EB81FE000D0DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B891FB27C807E64D88082DF3 /* Pods-SportScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportScanner.release.xcconfig"; path = "Target Support Files/Pods-SportScanner/Pods-SportScanner.release.xcconfig"; sourceTree = "<group>"; };
 		BDD204C87CECD47B4B90D759 /* Pods-SportScannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportScannerTests.release.xcconfig"; path = "Target Support Files/Pods-SportScannerTests/Pods-SportScannerTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA44E36426ED95BB00775D74 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		DA44E36826ED998A00775D74 /* MimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimeViewController.swift; sourceTree = "<group>"; };
+		DA44E36A26ED999A00775D74 /* MineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewModel.swift; sourceTree = "<group>"; };
+		DA44E36E26ED9CBA00775D74 /* HFSHomeGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSHomeGuideView.swift; sourceTree = "<group>"; };
+		DA44E37326EDA33C00775D74 /* HFSBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSBrowserViewController.swift; sourceTree = "<group>"; };
+		DA44E37526EDA34D00775D74 /* HFSBrowserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSBrowserViewModel.swift; sourceTree = "<group>"; };
+		DA44E37A26EDB21700775D74 /* HFSGoalSettingFlowCoodinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSGoalSettingFlowCoodinator.swift; sourceTree = "<group>"; };
+		DA44E37C26EDB25200775D74 /* HFSGoalSettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSGoalSettingViewModel.swift; sourceTree = "<group>"; };
+		DA44E38126EDB3A200775D74 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		DA44E38326EDB3D700775D74 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		DA44E38526EDB4D800775D74 /* HFSGoalSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSGoalSettingViewController.swift; sourceTree = "<group>"; };
+		DA44E38726EDE00000775D74 /* HFSGoalSettingWeightPopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSGoalSettingWeightPopView.swift; sourceTree = "<group>"; };
 		DACD14AC26EC383500E6EAB7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DACD14F526EC4E9A00E6EAB7 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
 		DACD14F826EC4EC000E6EAB7 /* AppDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIContainer.swift; sourceTree = "<group>"; };
@@ -287,9 +311,103 @@
 			path = infrastructure;
 			sourceTree = "<group>";
 		};
+		DA44E36626ED997400775D74 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DA44E36A26ED999A00775D74 /* MineViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DA44E36726ED997900775D74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA44E36826ED998A00775D74 /* MimeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA44E36C26ED9C8000775D74 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				DA44E36D26ED9C8C00775D74 /* View */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		DA44E36D26ED9C8C00775D74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA44E36E26ED9CBA00775D74 /* HFSHomeGuideView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DA44E37026EDA31600775D74 /* Browser */ = {
+			isa = PBXGroup;
+			children = (
+				DA44E37226EDA32700775D74 /* ViewController */,
+				DA44E37126EDA32200775D74 /* ViewModel */,
+			);
+			path = Browser;
+			sourceTree = "<group>";
+		};
+		DA44E37126EDA32200775D74 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DA44E37526EDA34D00775D74 /* HFSBrowserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DA44E37226EDA32700775D74 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DA44E37326EDA33C00775D74 /* HFSBrowserViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DA44E37726EDB1E300775D74 /* GoalSetting */ = {
+			isa = PBXGroup;
+			children = (
+				DA44E37A26EDB21700775D74 /* HFSGoalSettingFlowCoodinator.swift */,
+				DA44E37926EDB1EE00775D74 /* VIew */,
+				DA44E37826EDB1EA00775D74 /* ViewModel */,
+			);
+			path = GoalSetting;
+			sourceTree = "<group>";
+		};
+		DA44E37826EDB1EA00775D74 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DA44E37C26EDB25200775D74 /* HFSGoalSettingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DA44E37926EDB1EE00775D74 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				DA44E38526EDB4D800775D74 /* HFSGoalSettingViewController.swift */,
+				DA44E38726EDE00000775D74 /* HFSGoalSettingWeightPopView.swift */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		DA44E38026EDB39200775D74 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DA44E38126EDB3A200775D74 /* Observable.swift */,
+				DA44E38326EDB3D700775D74 /* LoadingView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		DA50292B26EC84DE00E41637 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				DA44E38026EDB39200775D74 /* Core */,
 				DAF4565926ECF5BB00A68D19 /* Protocols */,
 				DAF4564826EC9E2A00A68D19 /* Navigations */,
 				DAFDA19C26EBADDD009ADDAE /* BottomPopupController */,
@@ -329,6 +447,8 @@
 		DACD14F126EC4BDD00E6EAB7 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				DA44E37726EDB1E300775D74 /* GoalSetting */,
+				DA44E37026EDA31600775D74 /* Browser */,
 				DAF4564626EC8C0500A68D19 /* Mime */,
 				DAF4564526EC8BFE00A68D19 /* Home */,
 				DA50292B26EC84DE00E41637 /* Utils */,
@@ -367,6 +487,7 @@
 				DAF4565326ECF18800A68D19 /* HFSHomeFlowCoordinator.swift */,
 				DAF4565526ECF18D00A68D19 /* ViewController */,
 				DAF4565626ECF30D00A68D19 /* ViewModel */,
+				DA44E36C26ED9C8000775D74 /* Guide */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -374,6 +495,8 @@
 		DAF4564626EC8C0500A68D19 /* Mime */ = {
 			isa = PBXGroup;
 			children = (
+				DA44E36726ED997900775D74 /* View */,
+				DA44E36626ED997400775D74 /* ViewModel */,
 			);
 			path = Mime;
 			sourceTree = "<group>";
@@ -499,6 +622,7 @@
 				DAFDA16726EBADB6009ADDAE /* HFSNiblessView.swift */,
 				DAFDA16826EBADB6009ADDAE /* HFSNiblessViewController.swift */,
 				DAFDA16926EBADB6009ADDAE /* HFSNiblessTableViewCell.swift */,
+				DA44E36426ED95BB00775D74 /* BaseNavigationController.swift */,
 			);
 			path = Nibless;
 			sourceTree = "<group>";
@@ -695,8 +819,10 @@
 			files = (
 				DAFDA12626EBACAD009ADDAE /* CaptureQuality.swift in Sources */,
 				AAEAC16426EB81FD000D0DDD /* AppDelegate.swift in Sources */,
+				DA44E36B26ED999A00775D74 /* MineViewModel.swift in Sources */,
 				DAFDA16B26EBADB6009ADDAE /* UIView+JJFloatingActionButton.swift in Sources */,
 				DAF4565D26ECF64500A68D19 /* HFSHomeViewModel.swift in Sources */,
+				DA44E38426EDB3D700775D74 /* LoadingView.swift in Sources */,
 				DAFDA16E26EBADB6009ADDAE /* AnimationConfiguration.swift in Sources */,
 				DAFDA12126EBACAC009ADDAE /* UIColor+Extension.swift in Sources */,
 				DAFDA12B26EBACAD009ADDAE /* CALayer+Conversion.swift in Sources */,
@@ -706,6 +832,8 @@
 				DAFDA16F26EBADB6009ADDAE /* JJActionItem.swift in Sources */,
 				DAFDA1A526EBADDD009ADDAE /* BottomPopupUtils.swift in Sources */,
 				DAF4565B26ECF5C900A68D19 /* StoryboardInstantiable.swift in Sources */,
+				DA44E37D26EDB25200775D74 /* HFSGoalSettingViewModel.swift in Sources */,
+				DA44E36526ED95BB00775D74 /* BaseNavigationController.swift in Sources */,
 				DAFDA11D26EBACAC009ADDAE /* CGRectExtension.swift in Sources */,
 				DAFDA17B26EBADB6009ADDAE /* ShockFeedbackEngine.swift in Sources */,
 				DAFDA17A26EBADB6009ADDAE /* Shock.swift in Sources */,
@@ -714,14 +842,18 @@
 				DAFDA10826EBAC82009ADDAE /* HFSAppCommon.swift in Sources */,
 				DAF4564C26ECA23E00A68D19 /* HFSRouter.swift in Sources */,
 				DAFDA19926EBADB6009ADDAE /* HFSNiblessView.swift in Sources */,
+				DA44E38626EDB4D800775D74 /* HFSGoalSettingViewController.swift in Sources */,
 				DAFDA17926EBADB6009ADDAE /* UIDevice+Extension.swift in Sources */,
 				DAFDA1AA26EBADDD009ADDAE /* BottomPopupPresentAnimator.swift in Sources */,
+				DA44E38826EDE00000775D74 /* HFSGoalSettingWeightPopView.swift in Sources */,
 				DAFDA17526EBADB6009ADDAE /* JJFloatingActionButton.swift in Sources */,
 				DAFDA12926EBACAD009ADDAE /* UIImage+Blur.swift in Sources */,
 				DAF4564A26EC9E3F00A68D19 /* URLNavigationMap.swift in Sources */,
 				DAFDA1A726EBADDD009ADDAE /* BottomPopupDismissInteractionController.swift in Sources */,
 				DACD14FD26EC51E000E6EAB7 /* AppAppearance.swift in Sources */,
 				DAFDA1A926EBADDD009ADDAE /* BottomPopupDismissAnimator.swift in Sources */,
+				DA44E37626EDA34D00775D74 /* HFSBrowserViewModel.swift in Sources */,
+				DA44E36926ED998A00775D74 /* MimeViewController.swift in Sources */,
 				DAFDA17F26EBADB6009ADDAE /* ShockPattern.swift in Sources */,
 				DAFDA1AB26EBADDD009ADDAE /* BottomPopupTransitionHandler.swift in Sources */,
 				DAFDA12A26EBACAD009ADDAE /* BlurLayer.swift in Sources */,
@@ -732,11 +864,15 @@
 				DAFDA17026EBADB6009ADDAE /* JJFloatingActionButtonState.swift in Sources */,
 				DAFDA12026EBACAC009ADDAE /* UIButtonExtension.swift in Sources */,
 				DAFDA12C26EBACAD009ADDAE /* UINavgationControllerExtension.swift in Sources */,
+				DA44E37426EDA33C00775D74 /* HFSBrowserViewController.swift in Sources */,
 				DAFDA17D26EBADB6009ADDAE /* TapticEngine.swift in Sources */,
 				DAFDA19B26EBADB6009ADDAE /* HFSNiblessTableViewCell.swift in Sources */,
+				DA44E36F26ED9CBA00775D74 /* HFSHomeGuideView.swift in Sources */,
 				DAFDA17326EBADB6009ADDAE /* JJFloatingActionButton+Placement.swift in Sources */,
+				DA44E38226EDB3A200775D74 /* Observable.swift in Sources */,
 				DAFDA17126EBADB6009ADDAE /* JJActionItemTitlePosition.swift in Sources */,
 				DAFDA11F26EBACAC009ADDAE /* CAGradientLayerExtensions.swift in Sources */,
+				DA44E37B26EDB21700775D74 /* HFSGoalSettingFlowCoodinator.swift in Sources */,
 				DAFDA12D26EBACAD009ADDAE /* DynamicBlurView.swift in Sources */,
 				DAFDA12326EBACAD009ADDAE /* CGContext+CGImage.swift in Sources */,
 				DAFDA17E26EBADB6009ADDAE /* UIButton+Shock.swift in Sources */,

@@ -7,7 +7,12 @@
 //
 
 import UIKit
-
+/**
+ ## Important Notes ##
+ /// 3D模型制作
+ /// 手机简历自动生成
+ 
+ */
 public let HFSScreenWidth = UIScreen.main.bounds.width
 
 public let HFSScreenHeight = UIScreen.main.bounds.height
