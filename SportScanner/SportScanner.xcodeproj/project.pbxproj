@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA7A2A6E26F1C2F9004D7A24 /* HFSSportListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A2A6D26F1C2F9004D7A24 /* HFSSportListViewController.swift */; };
+		AA7A2A7026F1C454004D7A24 /* HFSSportFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A2A6F26F1C454004D7A24 /* HFSSportFlowCoordinator.swift */; };
+		AA7A2A7226F1C560004D7A24 /* HFSSportDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A2A7126F1C560004D7A24 /* HFSSportDIContainer.swift */; };
+		AA7A2A7A26F1C6C5004D7A24 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A2A7626F1C6C5004D7A24 /* Endpoint.swift */; };
+		AA7A2A7B26F1C6C5004D7A24 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A2A7726F1C6C5004D7A24 /* NetworkConfig.swift */; };
+		AA7A2A7C26F1C6C5004D7A24 /* DataTransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A2A7826F1C6C5004D7A24 /* DataTransferService.swift */; };
+		AA7A2A7D26F1C6C5004D7A24 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A2A7926F1C6C5004D7A24 /* NetworkService.swift */; };
+		AA7A2A7F26F1C94D004D7A24 /* HFSSportDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A2A7E26F1C94D004D7A24 /* HFSSportDetailViewController.swift */; };
+		AA7A2A8126F1C999004D7A24 /* HFSSportDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A2A8026F1C999004D7A24 /* HFSSportDetailViewModel.swift */; };
+		AA7A2A8426F1CCC5004D7A24 /* PosterImagesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A2A8326F1CCC5004D7A24 /* PosterImagesRepository.swift */; };
+		AA7A2A8626F1CCDD004D7A24 /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A2A8526F1CCDD004D7A24 /* Cancellable.swift */; };
+		AA7A2A8926F1CE27004D7A24 /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A2A8826F1CE27004D7A24 /* Sport.swift */; };
+		AA7A2A8B26F1CE6F004D7A24 /* SportQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A2A8A26F1CE6F004D7A24 /* SportQuery.swift */; };
+		AA7A2A8D26F1D474004D7A24 /* HFSSportListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A2A8C26F1D474004D7A24 /* HFSSportListViewModel.swift */; };
+		AA7A2A9226F1D5CB004D7A24 /* HFSSportItemListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A2A9126F1D5CB004D7A24 /* HFSSportItemListViewModel.swift */; };
+		AA7A2A9526F1E9F0004D7A24 /* SportListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7A2A9426F1E9F0004D7A24 /* SportListTableViewController.swift */; };
+		AAE5E38E26F0744F00854074 /* PoseNetMobileNet100S16FP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AAE5E38D26F0744F00854074 /* PoseNetMobileNet100S16FP16.mlmodel */; };
 		AAEAC16426EB81FD000D0DDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAC16326EB81FD000D0DDD /* AppDelegate.swift */; };
 		AAEAC16E26EB81FD000D0DDD /* SportScanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAEAC16C26EB81FD000D0DDD /* SportScanner.xcdatamodeld */; };
 		AAEAC17026EB81FE000D0DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAEAC16F26EB81FE000D0DDD /* Assets.xcassets */; };
@@ -121,6 +138,23 @@
 /* Begin PBXFileReference section */
 		1ECCBB57E697111D15B84A1B /* Pods-SportScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportScanner.debug.xcconfig"; path = "Target Support Files/Pods-SportScanner/Pods-SportScanner.debug.xcconfig"; sourceTree = "<group>"; };
 		53ACE0FC44A1AAE433DADD1C /* Pods-SportScannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportScannerTests.debug.xcconfig"; path = "Target Support Files/Pods-SportScannerTests/Pods-SportScannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA7A2A6D26F1C2F9004D7A24 /* HFSSportListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSSportListViewController.swift; sourceTree = "<group>"; };
+		AA7A2A6F26F1C454004D7A24 /* HFSSportFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSSportFlowCoordinator.swift; sourceTree = "<group>"; };
+		AA7A2A7126F1C560004D7A24 /* HFSSportDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSSportDIContainer.swift; sourceTree = "<group>"; };
+		AA7A2A7626F1C6C5004D7A24 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		AA7A2A7726F1C6C5004D7A24 /* NetworkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		AA7A2A7826F1C6C5004D7A24 /* DataTransferService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTransferService.swift; sourceTree = "<group>"; };
+		AA7A2A7926F1C6C5004D7A24 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		AA7A2A7E26F1C94D004D7A24 /* HFSSportDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSSportDetailViewController.swift; sourceTree = "<group>"; };
+		AA7A2A8026F1C999004D7A24 /* HFSSportDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSSportDetailViewModel.swift; sourceTree = "<group>"; };
+		AA7A2A8326F1CCC5004D7A24 /* PosterImagesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterImagesRepository.swift; sourceTree = "<group>"; };
+		AA7A2A8526F1CCDD004D7A24 /* Cancellable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
+		AA7A2A8826F1CE27004D7A24 /* Sport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport.swift; sourceTree = "<group>"; };
+		AA7A2A8A26F1CE6F004D7A24 /* SportQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportQuery.swift; sourceTree = "<group>"; };
+		AA7A2A8C26F1D474004D7A24 /* HFSSportListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSSportListViewModel.swift; sourceTree = "<group>"; };
+		AA7A2A9126F1D5CB004D7A24 /* HFSSportItemListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSSportItemListViewModel.swift; sourceTree = "<group>"; };
+		AA7A2A9426F1E9F0004D7A24 /* SportListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportListTableViewController.swift; sourceTree = "<group>"; };
+		AAE5E38D26F0744F00854074 /* PoseNetMobileNet100S16FP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PoseNetMobileNet100S16FP16.mlmodel; sourceTree = "<group>"; };
 		AAEAC16026EB81FD000D0DDD /* SportScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEAC16326EB81FD000D0DDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAEAC16D26EB81FD000D0DDD /* SportScanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportScanner.xcdatamodel; sourceTree = "<group>"; };
@@ -274,6 +308,119 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		AA7A2A6A26F1C2D2004D7A24 /* Sport */ = {
+			isa = PBXGroup;
+			children = (
+				AA7A2A8E26F1D58D004D7A24 /* VideoList */,
+				AA7A2A6F26F1C454004D7A24 /* HFSSportFlowCoordinator.swift */,
+				AA7A2A6C26F1C2DC004D7A24 /* ViewModel */,
+				AA7A2A6B26F1C2D9004D7A24 /* Views */,
+			);
+			path = Sport;
+			sourceTree = "<group>";
+		};
+		AA7A2A6B26F1C2D9004D7A24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA7A2A7E26F1C94D004D7A24 /* HFSSportDetailViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA7A2A6C26F1C2DC004D7A24 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AA7A2A8026F1C999004D7A24 /* HFSSportDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AA7A2A7526F1C6BA004D7A24 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AA7A2A7826F1C6C5004D7A24 /* DataTransferService.swift */,
+				AA7A2A7626F1C6C5004D7A24 /* Endpoint.swift */,
+				AA7A2A7726F1C6C5004D7A24 /* NetworkConfig.swift */,
+				AA7A2A7926F1C6C5004D7A24 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AA7A2A8226F1CCB5004D7A24 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				AA7A2A8326F1CCC5004D7A24 /* PosterImagesRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		AA7A2A8726F1CE1B004D7A24 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				AA7A2A8826F1CE27004D7A24 /* Sport.swift */,
+				AA7A2A8A26F1CE6F004D7A24 /* SportQuery.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		AA7A2A8E26F1D58D004D7A24 /* VideoList */ = {
+			isa = PBXGroup;
+			children = (
+				AA7A2A9026F1D5AF004D7A24 /* Views */,
+				AA7A2A8F26F1D5A1004D7A24 /* ViewModel */,
+			);
+			path = VideoList;
+			sourceTree = "<group>";
+		};
+		AA7A2A8F26F1D5A1004D7A24 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AA7A2A8C26F1D474004D7A24 /* HFSSportListViewModel.swift */,
+				AA7A2A9126F1D5CB004D7A24 /* HFSSportItemListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AA7A2A9026F1D5AF004D7A24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA7A2A6D26F1C2F9004D7A24 /* HFSSportListViewController.swift */,
+				AA7A2A9426F1E9F0004D7A24 /* SportListTableViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AAE5E38926F0738200854074 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				AAE5E38A26F0738700854074 /* ViewModels */,
+				AAE5E38B26F0739000854074 /* View */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		AAE5E38A26F0738700854074 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AAE5E38B26F0739000854074 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAE5E38C26F073AA00854074 /* CoreML */ = {
+			isa = PBXGroup;
+			children = (
+				AAE5E38D26F0744F00854074 /* PoseNetMobileNet100S16FP16.mlmodel */,
+			);
+			path = CoreML;
+			sourceTree = "<group>";
+		};
 		AAEAC15726EB81FD000D0DDD = {
 			isa = PBXGroup;
 			children = (
@@ -300,11 +447,11 @@
 			isa = PBXGroup;
 			children = (
 				DACD14AC26EC383500E6EAB7 /* GoogleService-Info.plist */,
+				DACD14EF26EC4B5800E6EAB7 /* Application */,
 				DACD14F326EC4BEA00E6EAB7 /* Common */,
 				DACD14F226EC4BE500E6EAB7 /* Domain */,
 				DACD14F126EC4BDD00E6EAB7 /* Presentation */,
 				DACD14F026EC4B5E00E6EAB7 /* Resources */,
-				DACD14EF26EC4B5800E6EAB7 /* Application */,
 				AAEAC19626EB831F000D0DDD /* infrastructure */,
 			);
 			path = SportScanner;
@@ -331,6 +478,8 @@
 		AAEAC19626EB831F000D0DDD /* infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				AA7A2A8226F1CCB5004D7A24 /* Repositories */,
+				AA7A2A7526F1C6BA004D7A24 /* Network */,
 			);
 			path = infrastructure;
 			sourceTree = "<group>";
@@ -498,6 +647,8 @@
 		DACD14F126EC4BDD00E6EAB7 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				AA7A2A6A26F1C2D2004D7A24 /* Sport */,
+				AAE5E38926F0738200854074 /* Player */,
 				DA44E37726EDB1E300775D74 /* GoalSetting */,
 				DA44E37026EDA31600775D74 /* Browser */,
 				DAF4564626EC8C0500A68D19 /* Mime */,
@@ -510,6 +661,8 @@
 		DACD14F226EC4BE500E6EAB7 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				AA7A2A8726F1CE1B004D7A24 /* Entities */,
+				AAE5E38C26F073AA00854074 /* CoreML */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -520,6 +673,7 @@
 				DA44E3AC26EE547800775D74 /* SportScanner-Bridging-Header.h */,
 				DAFDA0FF26EBAC81009ADDAE /* HFSAppCommon.swift */,
 				DAF4564D26ECA91800A68D19 /* CompositionRoot.swift */,
+				AA7A2A8526F1CCDD004D7A24 /* Cancellable.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -528,6 +682,7 @@
 			isa = PBXGroup;
 			children = (
 				DACD14F826EC4EC000E6EAB7 /* AppDIContainer.swift */,
+				AA7A2A7126F1C560004D7A24 /* HFSSportDIContainer.swift */,
 				DAF4564F26ECD9B300A68D19 /* HomeSceneDIContainer.swift */,
 			);
 			path = DIContainer;
@@ -879,13 +1034,17 @@
 				DAF4565D26ECF64500A68D19 /* HFSHomeViewModel.swift in Sources */,
 				DA44E38426EDB3D700775D74 /* LoadingView.swift in Sources */,
 				DAFDA16E26EBADB6009ADDAE /* AnimationConfiguration.swift in Sources */,
+				AA7A2A7B26F1C6C5004D7A24 /* NetworkConfig.swift in Sources */,
 				DAFDA12126EBACAC009ADDAE /* UIColor+Extension.swift in Sources */,
 				DAFDA12B26EBACAD009ADDAE /* CALayer+Conversion.swift in Sources */,
+				AA7A2A8626F1CCDD004D7A24 /* Cancellable.swift in Sources */,
 				DACD14F926EC4EC000E6EAB7 /* AppDIContainer.swift in Sources */,
 				DAFDA12526EBACAD009ADDAE /* CustomBlurView.swift in Sources */,
+				AA7A2A7F26F1C94D004D7A24 /* HFSSportDetailViewController.swift in Sources */,
 				DAFDA12426EBACAD009ADDAE /* UILabelExtension.swift in Sources */,
 				DA44E39326EE51FF00775D74 /* Gradients+Layer.swift in Sources */,
 				DAFDA16F26EBADB6009ADDAE /* JJActionItem.swift in Sources */,
+				AA7A2A9226F1D5CB004D7A24 /* HFSSportItemListViewModel.swift in Sources */,
 				DAFDA1A526EBADDD009ADDAE /* BottomPopupUtils.swift in Sources */,
 				DAF4565B26ECF5C900A68D19 /* StoryboardInstantiable.swift in Sources */,
 				DA44E37D26EDB25200775D74 /* HFSGoalSettingViewModel.swift in Sources */,
@@ -896,14 +1055,20 @@
 				DAF4565026ECD9B300A68D19 /* HomeSceneDIContainer.swift in Sources */,
 				DACD14FB26EC50B500E6EAB7 /* AppFlowCoordinator.swift in Sources */,
 				DAFDA10826EBAC82009ADDAE /* HFSAppCommon.swift in Sources */,
+				AA7A2A9526F1E9F0004D7A24 /* SportListTableViewController.swift in Sources */,
 				DAF4564C26ECA23E00A68D19 /* HFSRouter.swift in Sources */,
 				DAFDA19926EBADB6009ADDAE /* HFSNiblessView.swift in Sources */,
+				AA7A2A8426F1CCC5004D7A24 /* PosterImagesRepository.swift in Sources */,
 				DA44E38626EDB4D800775D74 /* HFSGoalSettingViewController.swift in Sources */,
 				DAFDA17926EBADB6009ADDAE /* UIDevice+Extension.swift in Sources */,
 				DAFDA1AA26EBADDD009ADDAE /* BottomPopupPresentAnimator.swift in Sources */,
 				DA44E38826EDE00000775D74 /* HFSGoalSettingWeightPopView.swift in Sources */,
 				DAFDA17526EBADB6009ADDAE /* JJFloatingActionButton.swift in Sources */,
+				AA7A2A7226F1C560004D7A24 /* HFSSportDIContainer.swift in Sources */,
+				AAE5E38E26F0744F00854074 /* PoseNetMobileNet100S16FP16.mlmodel in Sources */,
 				DAFDA12926EBACAD009ADDAE /* UIImage+Blur.swift in Sources */,
+				AA7A2A8B26F1CE6F004D7A24 /* SportQuery.swift in Sources */,
+				AA7A2A8D26F1D474004D7A24 /* HFSSportListViewModel.swift in Sources */,
 				DAF4564A26EC9E3F00A68D19 /* URLNavigationMap.swift in Sources */,
 				DAFDA1A726EBADDD009ADDAE /* BottomPopupDismissInteractionController.swift in Sources */,
 				DACD14FD26EC51E000E6EAB7 /* AppAppearance.swift in Sources */,
@@ -912,6 +1077,7 @@
 				DA44E36926ED998A00775D74 /* MimeViewController.swift in Sources */,
 				DAFDA17F26EBADB6009ADDAE /* ShockPattern.swift in Sources */,
 				DAFDA1AB26EBADDD009ADDAE /* BottomPopupTransitionHandler.swift in Sources */,
+				AA7A2A7A26F1C6C5004D7A24 /* Endpoint.swift in Sources */,
 				DA44E3A326EE53E600775D74 /* HFSFont.m in Sources */,
 				DAFDA12A26EBACAD009ADDAE /* BlurLayer.swift in Sources */,
 				DAFDA1A826EBADDD009ADDAE /* BottomPopupNavigationController.swift in Sources */,
@@ -922,16 +1088,20 @@
 				DAFDA12026EBACAC009ADDAE /* UIButtonExtension.swift in Sources */,
 				DAFDA12C26EBACAD009ADDAE /* UINavgationControllerExtension.swift in Sources */,
 				DA44E37426EDA33C00775D74 /* HFSBrowserViewController.swift in Sources */,
+				AA7A2A7C26F1C6C5004D7A24 /* DataTransferService.swift in Sources */,
 				DAFDA17D26EBADB6009ADDAE /* TapticEngine.swift in Sources */,
 				DAFDA19B26EBADB6009ADDAE /* HFSNiblessTableViewCell.swift in Sources */,
+				AA7A2A7026F1C454004D7A24 /* HFSSportFlowCoordinator.swift in Sources */,
 				DA44E36F26ED9CBA00775D74 /* HFSHomeGuideView.swift in Sources */,
 				DA44E38F26EE4F7E00775D74 /* HFSGoalSettingFirstScheduleView.swift in Sources */,
 				DA44E3A226EE53E600775D74 /* HFSColor.m in Sources */,
 				DAFDA17326EBADB6009ADDAE /* JJFloatingActionButton+Placement.swift in Sources */,
 				DA44E38226EDB3A200775D74 /* Observable.swift in Sources */,
+				AA7A2A6E26F1C2F9004D7A24 /* HFSSportListViewController.swift in Sources */,
 				DAFDA17126EBADB6009ADDAE /* JJActionItemTitlePosition.swift in Sources */,
 				DAFDA11F26EBACAC009ADDAE /* CAGradientLayerExtensions.swift in Sources */,
 				DA44E37B26EDB21700775D74 /* HFSGoalSettingFlowCoodinator.swift in Sources */,
+				AA7A2A8126F1C999004D7A24 /* HFSSportDetailViewModel.swift in Sources */,
 				DAFDA12D26EBACAD009ADDAE /* DynamicBlurView.swift in Sources */,
 				DAFDA12326EBACAD009ADDAE /* CGContext+CGImage.swift in Sources */,
 				DAFDA17E26EBADB6009ADDAE /* UIButton+Shock.swift in Sources */,
@@ -941,6 +1111,7 @@
 				DAFDA19A26EBADB6009ADDAE /* HFSNiblessViewController.swift in Sources */,
 				AAEAC16E26EB81FD000D0DDD /* SportScanner.xcdatamodeld in Sources */,
 				DA44E39126EE51BF00775D74 /* Gradients.swift in Sources */,
+				AA7A2A7D26F1C6C5004D7A24 /* NetworkService.swift in Sources */,
 				DAFDA17626EBADB6009ADDAE /* JJCircleView.swift in Sources */,
 				DAFDA16C26EBADB6009ADDAE /* JJFloatingActionButtonDelegate.swift in Sources */,
 				DAFDA16D26EBADB6009ADDAE /* Styles.swift in Sources */,
@@ -954,6 +1125,7 @@
 				DA44E39526EE524500775D74 /* Gradients+Name.swift in Sources */,
 				DAFDA12826EBACAD009ADDAE /* TrackingMode.swift in Sources */,
 				DAFDA17C26EBADB6009ADDAE /* ShockPatternEngine.swift in Sources */,
+				AA7A2A8926F1CE27004D7A24 /* Sport.swift in Sources */,
 				DAF4565826ECF32300A68D19 /* HFSHomeViewModelActions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

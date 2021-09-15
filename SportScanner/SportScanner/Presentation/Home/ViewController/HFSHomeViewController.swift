@@ -20,9 +20,6 @@ class HFSHomeViewController: UIViewController,StoryboardInstantiable {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-        let goalSettingViewController = HFSGoalSettingViewController()
-        self.navigationController?.pushViewController(goalSettingViewController)
     }
     
     /// 依赖注入

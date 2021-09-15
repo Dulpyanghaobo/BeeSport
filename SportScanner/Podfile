@@ -18,4 +18,5 @@ target 'SportScanner' do
     pod 'Kingfisher'
     pod 'URLNavigator'
     pod 'ESPullToRefresh'
+    pod 'SkeletonView'
 end

@@ -11,7 +11,7 @@ import UIKit
  ## Important Notes ##
  /// 3D模型制作
  /// 手机简历自动生成
- 
+ /// 走路App制作 * 解锁你的地图*记录你的脚步
  */
 public let HFSScreenWidth = UIScreen.main.bounds.width
 
