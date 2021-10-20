@@ -51,6 +51,10 @@ class HFSCameraPresenter : NSObject {
         return deviceSession.devices[0]
     } ()
     
+    private lazy var deviceInput : AVCaptureDeviceInput {
+        
+    } ()
+    
     private lazy var session : AVCaptureSession = {
         var session = AVCaptureSession.init()
         session.canSetSessionPreset(AVCaptureSession.Preset.photo)
