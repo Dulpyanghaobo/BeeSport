@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAB3345F27201BFC00D47BDF /* HFSCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3345E27201BFC00D47BDF /* HFSCameraViewController.swift */; };
+		AAB3346127201CE800D47BDF /* HFSCameraTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3346027201CE800D47BDF /* HFSCameraTopView.swift */; };
+		AAB3346327201CF300D47BDF /* HFSCameraBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3346227201CF300D47BDF /* HFSCameraBottomView.swift */; };
+		AAB3346527201D0300D47BDF /* HFSCameraCenterAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3346427201D0300D47BDF /* HFSCameraCenterAreaView.swift */; };
+		AAB3346727201D1000D47BDF /* HFSCameraListAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3346627201D1000D47BDF /* HFSCameraListAlertView.swift */; };
+		AAB3347427201DB500D47BDF /* BottomPopupUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3346C27201DB500D47BDF /* BottomPopupUtils.swift */; };
+		AAB3347527201DB500D47BDF /* BottomPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3346D27201DB500D47BDF /* BottomPopupViewController.swift */; };
+		AAB3347627201DB500D47BDF /* BottomPopupDismissInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3346E27201DB500D47BDF /* BottomPopupDismissInteractionController.swift */; };
+		AAB3347727201DB500D47BDF /* BottomPopupNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3346F27201DB500D47BDF /* BottomPopupNavigationController.swift */; };
+		AAB3347827201DB500D47BDF /* BottomPopupDismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3347027201DB500D47BDF /* BottomPopupDismissAnimator.swift */; };
+		AAB3347927201DB500D47BDF /* BottomPopupPresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3347127201DB500D47BDF /* BottomPopupPresentAnimator.swift */; };
+		AAB3347A27201DB500D47BDF /* BottomPopupTransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3347227201DB500D47BDF /* BottomPopupTransitionHandler.swift */; };
+		AAB3347B27201DB500D47BDF /* BottomPopupPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3347327201DB500D47BDF /* BottomPopupPresentationController.swift */; };
 		AAEAC16426EB81FD000D0DDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEAC16326EB81FD000D0DDD /* AppDelegate.swift */; };
 		AAEAC16E26EB81FD000D0DDD /* SportScanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAEAC16C26EB81FD000D0DDD /* SportScanner.xcdatamodeld */; };
 		AAEAC17026EB81FE000D0DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAEAC16F26EB81FE000D0DDD /* Assets.xcassets */; };
@@ -121,6 +134,19 @@
 /* Begin PBXFileReference section */
 		1ECCBB57E697111D15B84A1B /* Pods-SportScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportScanner.debug.xcconfig"; path = "Target Support Files/Pods-SportScanner/Pods-SportScanner.debug.xcconfig"; sourceTree = "<group>"; };
 		53ACE0FC44A1AAE433DADD1C /* Pods-SportScannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportScannerTests.debug.xcconfig"; path = "Target Support Files/Pods-SportScannerTests/Pods-SportScannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAB3345E27201BFC00D47BDF /* HFSCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSCameraViewController.swift; sourceTree = "<group>"; };
+		AAB3346027201CE800D47BDF /* HFSCameraTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSCameraTopView.swift; sourceTree = "<group>"; };
+		AAB3346227201CF300D47BDF /* HFSCameraBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSCameraBottomView.swift; sourceTree = "<group>"; };
+		AAB3346427201D0300D47BDF /* HFSCameraCenterAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSCameraCenterAreaView.swift; sourceTree = "<group>"; };
+		AAB3346627201D1000D47BDF /* HFSCameraListAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFSCameraListAlertView.swift; sourceTree = "<group>"; };
+		AAB3346C27201DB500D47BDF /* BottomPopupUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupUtils.swift; sourceTree = "<group>"; };
+		AAB3346D27201DB500D47BDF /* BottomPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupViewController.swift; sourceTree = "<group>"; };
+		AAB3346E27201DB500D47BDF /* BottomPopupDismissInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupDismissInteractionController.swift; sourceTree = "<group>"; };
+		AAB3346F27201DB500D47BDF /* BottomPopupNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupNavigationController.swift; sourceTree = "<group>"; };
+		AAB3347027201DB500D47BDF /* BottomPopupDismissAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupDismissAnimator.swift; sourceTree = "<group>"; };
+		AAB3347127201DB500D47BDF /* BottomPopupPresentAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupPresentAnimator.swift; sourceTree = "<group>"; };
+		AAB3347227201DB500D47BDF /* BottomPopupTransitionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupTransitionHandler.swift; sourceTree = "<group>"; };
+		AAB3347327201DB500D47BDF /* BottomPopupPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupPresentationController.swift; sourceTree = "<group>"; };
 		AAEAC16026EB81FD000D0DDD /* SportScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEAC16326EB81FD000D0DDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAEAC16D26EB81FD000D0DDD /* SportScanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportScanner.xcdatamodel; sourceTree = "<group>"; };
@@ -274,6 +300,81 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		AAB3345827201B9E00D47BDF /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3345D27201BDC00D47BDF /* Interactor */,
+				AAB3345C27201BD900D47BDF /* Router */,
+				AAB3345B27201BC400D47BDF /* Presenter */,
+				AAB3345A27201BB000D47BDF /* Views */,
+				AAB3345927201BA700D47BDF /* Models */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		AAB3345927201BA700D47BDF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AAB3345A27201BB000D47BDF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3345E27201BFC00D47BDF /* HFSCameraViewController.swift */,
+				AAB3346027201CE800D47BDF /* HFSCameraTopView.swift */,
+				AAB3346227201CF300D47BDF /* HFSCameraBottomView.swift */,
+				AAB3346427201D0300D47BDF /* HFSCameraCenterAreaView.swift */,
+				AAB3346627201D1000D47BDF /* HFSCameraListAlertView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AAB3345B27201BC400D47BDF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		AAB3345C27201BD900D47BDF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		AAB3345D27201BDC00D47BDF /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		AAB3346A27201D9B00D47BDF /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3346B27201DB500D47BDF /* BottomPopupController */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		AAB3346B27201DB500D47BDF /* BottomPopupController */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3346C27201DB500D47BDF /* BottomPopupUtils.swift */,
+				AAB3346D27201DB500D47BDF /* BottomPopupViewController.swift */,
+				AAB3346E27201DB500D47BDF /* BottomPopupDismissInteractionController.swift */,
+				AAB3346F27201DB500D47BDF /* BottomPopupNavigationController.swift */,
+				AAB3347027201DB500D47BDF /* BottomPopupDismissAnimator.swift */,
+				AAB3347127201DB500D47BDF /* BottomPopupPresentAnimator.swift */,
+				AAB3347227201DB500D47BDF /* BottomPopupTransitionHandler.swift */,
+				AAB3347327201DB500D47BDF /* BottomPopupPresentationController.swift */,
+			);
+			path = BottomPopupController;
+			sourceTree = "<group>";
+		};
 		AAEAC15726EB81FD000D0DDD = {
 			isa = PBXGroup;
 			children = (
@@ -299,13 +400,11 @@
 		AAEAC16226EB81FD000D0DDD /* SportScanner */ = {
 			isa = PBXGroup;
 			children = (
-				DACD14AC26EC383500E6EAB7 /* GoogleService-Info.plist */,
-				DACD14F326EC4BEA00E6EAB7 /* Common */,
-				DACD14F226EC4BE500E6EAB7 /* Domain */,
-				DACD14F126EC4BDD00E6EAB7 /* Presentation */,
-				DACD14F026EC4B5E00E6EAB7 /* Resources */,
 				DACD14EF26EC4B5800E6EAB7 /* Application */,
-				AAEAC19626EB831F000D0DDD /* infrastructure */,
+				DACD14F126EC4BDD00E6EAB7 /* Presentation */,
+				DACD14AC26EC383500E6EAB7 /* GoogleService-Info.plist */,
+				AAB3346A27201D9B00D47BDF /* Infrastructure */,
+				DACD14F026EC4B5E00E6EAB7 /* Resources */,
 			);
 			path = SportScanner;
 			sourceTree = "<group>";
@@ -326,13 +425,6 @@
 				AAEAC18A26EB81FE000D0DDD /* Info.plist */,
 			);
 			path = SportScannerUITests;
-			sourceTree = "<group>";
-		};
-		AAEAC19626EB831F000D0DDD /* infrastructure */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = infrastructure;
 			sourceTree = "<group>";
 		};
 		DA44E36626ED997400775D74 /* ViewModel */ = {
@@ -485,6 +577,9 @@
 		DACD14F026EC4B5E00E6EAB7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DA44E3AC26EE547800775D74 /* SportScanner-Bridging-Header.h */,
+				DAFDA0FF26EBAC81009ADDAE /* HFSAppCommon.swift */,
+				DAF4564D26ECA91800A68D19 /* CompositionRoot.swift */,
 				AAEAC16F26EB81FE000D0DDD /* Assets.xcassets */,
 				AAEAC17126EB81FE000D0DDD /* LaunchScreen.storyboard */,
 				AAEAC17426EB81FE000D0DDD /* Info.plist */,
@@ -498,6 +593,7 @@
 		DACD14F126EC4BDD00E6EAB7 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				AAB3345827201B9E00D47BDF /* Camera */,
 				DA44E37726EDB1E300775D74 /* GoalSetting */,
 				DA44E37026EDA31600775D74 /* Browser */,
 				DAF4564626EC8C0500A68D19 /* Mime */,
@@ -505,23 +601,6 @@
 				DA50292B26EC84DE00E41637 /* Utils */,
 			);
 			path = Presentation;
-			sourceTree = "<group>";
-		};
-		DACD14F226EC4BE500E6EAB7 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		DACD14F326EC4BEA00E6EAB7 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				DA44E3AC26EE547800775D74 /* SportScanner-Bridging-Header.h */,
-				DAFDA0FF26EBAC81009ADDAE /* HFSAppCommon.swift */,
-				DAF4564D26ECA91800A68D19 /* CompositionRoot.swift */,
-			);
-			path = Common;
 			sourceTree = "<group>";
 		};
 		DACD14F726EC4EB200E6EAB7 /* DIContainer */ = {
@@ -872,15 +951,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB3346727201D1000D47BDF /* HFSCameraListAlertView.swift in Sources */,
 				DAFDA12626EBACAD009ADDAE /* CaptureQuality.swift in Sources */,
 				AAEAC16426EB81FD000D0DDD /* AppDelegate.swift in Sources */,
 				DA44E36B26ED999A00775D74 /* MineViewModel.swift in Sources */,
+				AAB3347A27201DB500D47BDF /* BottomPopupTransitionHandler.swift in Sources */,
 				DAFDA16B26EBADB6009ADDAE /* UIView+JJFloatingActionButton.swift in Sources */,
 				DAF4565D26ECF64500A68D19 /* HFSHomeViewModel.swift in Sources */,
 				DA44E38426EDB3D700775D74 /* LoadingView.swift in Sources */,
 				DAFDA16E26EBADB6009ADDAE /* AnimationConfiguration.swift in Sources */,
 				DAFDA12126EBACAC009ADDAE /* UIColor+Extension.swift in Sources */,
 				DAFDA12B26EBACAD009ADDAE /* CALayer+Conversion.swift in Sources */,
+				AAB3347B27201DB500D47BDF /* BottomPopupPresentationController.swift in Sources */,
 				DACD14F926EC4EC000E6EAB7 /* AppDIContainer.swift in Sources */,
 				DAFDA12526EBACAD009ADDAE /* CustomBlurView.swift in Sources */,
 				DAFDA12426EBACAD009ADDAE /* UILabelExtension.swift in Sources */,
@@ -899,6 +981,7 @@
 				DAF4564C26ECA23E00A68D19 /* HFSRouter.swift in Sources */,
 				DAFDA19926EBADB6009ADDAE /* HFSNiblessView.swift in Sources */,
 				DA44E38626EDB4D800775D74 /* HFSGoalSettingViewController.swift in Sources */,
+				AAB3347827201DB500D47BDF /* BottomPopupDismissAnimator.swift in Sources */,
 				DAFDA17926EBADB6009ADDAE /* UIDevice+Extension.swift in Sources */,
 				DAFDA1AA26EBADDD009ADDAE /* BottomPopupPresentAnimator.swift in Sources */,
 				DA44E38826EDE00000775D74 /* HFSGoalSettingWeightPopView.swift in Sources */,
@@ -908,15 +991,20 @@
 				DAFDA1A726EBADDD009ADDAE /* BottomPopupDismissInteractionController.swift in Sources */,
 				DACD14FD26EC51E000E6EAB7 /* AppAppearance.swift in Sources */,
 				DAFDA1A926EBADDD009ADDAE /* BottomPopupDismissAnimator.swift in Sources */,
+				AAB3347727201DB500D47BDF /* BottomPopupNavigationController.swift in Sources */,
 				DA44E37626EDA34D00775D74 /* HFSBrowserViewModel.swift in Sources */,
+				AAB3345F27201BFC00D47BDF /* HFSCameraViewController.swift in Sources */,
 				DA44E36926ED998A00775D74 /* MimeViewController.swift in Sources */,
 				DAFDA17F26EBADB6009ADDAE /* ShockPattern.swift in Sources */,
+				AAB3346327201CF300D47BDF /* HFSCameraBottomView.swift in Sources */,
 				DAFDA1AB26EBADDD009ADDAE /* BottomPopupTransitionHandler.swift in Sources */,
 				DA44E3A326EE53E600775D74 /* HFSFont.m in Sources */,
+				AAB3347927201DB500D47BDF /* BottomPopupPresentAnimator.swift in Sources */,
 				DAFDA12A26EBACAD009ADDAE /* BlurLayer.swift in Sources */,
 				DAFDA1A826EBADDD009ADDAE /* BottomPopupNavigationController.swift in Sources */,
 				DACD14F626EC4E9A00E6EAB7 /* AppConfiguration.swift in Sources */,
 				DAFDA17226EBADB6009ADDAE /* UIColor+JJFloatingActionButton.swift in Sources */,
+				AAB3347627201DB500D47BDF /* BottomPopupDismissInteractionController.swift in Sources */,
 				DAFDA12726EBACAD009ADDAE /* CGRect+Conversion.swift in Sources */,
 				DAFDA17026EBADB6009ADDAE /* JJFloatingActionButtonState.swift in Sources */,
 				DAFDA12026EBACAC009ADDAE /* UIButtonExtension.swift in Sources */,
@@ -924,6 +1012,7 @@
 				DA44E37426EDA33C00775D74 /* HFSBrowserViewController.swift in Sources */,
 				DAFDA17D26EBADB6009ADDAE /* TapticEngine.swift in Sources */,
 				DAFDA19B26EBADB6009ADDAE /* HFSNiblessTableViewCell.swift in Sources */,
+				AAB3347427201DB500D47BDF /* BottomPopupUtils.swift in Sources */,
 				DA44E36F26ED9CBA00775D74 /* HFSHomeGuideView.swift in Sources */,
 				DA44E38F26EE4F7E00775D74 /* HFSGoalSettingFirstScheduleView.swift in Sources */,
 				DA44E3A226EE53E600775D74 /* HFSColor.m in Sources */,
@@ -947,11 +1036,14 @@
 				DAF4564E26ECA91800A68D19 /* CompositionRoot.swift in Sources */,
 				DAFDA1AC26EBADDD009ADDAE /* BottomPopupPresentationController.swift in Sources */,
 				DAFDA12226EBACAC009ADDAE /* CGImage+Accelerate.swift in Sources */,
+				AAB3346527201D0300D47BDF /* HFSCameraCenterAreaView.swift in Sources */,
 				DA44E39826EE527200775D74 /* Gradients+Direction.swift in Sources */,
 				DAFDA16A26EBADB6009ADDAE /* JJFloatingActionButton+Animation.swift in Sources */,
 				DAFDA17426EBADB6009ADDAE /* LayerProperties.swift in Sources */,
 				DAFDA1A626EBADDD009ADDAE /* BottomPopupViewController.swift in Sources */,
+				AAB3346127201CE800D47BDF /* HFSCameraTopView.swift in Sources */,
 				DA44E39526EE524500775D74 /* Gradients+Name.swift in Sources */,
+				AAB3347527201DB500D47BDF /* BottomPopupViewController.swift in Sources */,
 				DAFDA12826EBACAD009ADDAE /* TrackingMode.swift in Sources */,
 				DAFDA17C26EBADB6009ADDAE /* ShockPatternEngine.swift in Sources */,
 				DAF4565826ECF32300A68D19 /* HFSHomeViewModelActions.swift in Sources */,
