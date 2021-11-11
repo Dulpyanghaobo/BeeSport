@@ -18,8 +18,13 @@ protocol HBButton
 
 class HBBaseButton : UIView {
     var callBack : (_ object : AnyObject) -> Void?
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
     
-    
+    required init?(coder: NSCoder) {
+        fatalError("")
+    }
     
 }
 

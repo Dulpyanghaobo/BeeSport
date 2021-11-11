@@ -51,9 +51,9 @@ class HFSCameraPresenter : NSObject {
         return deviceSession.devices[0]
     } ()
     
-    private lazy var deviceInput : AVCaptureDeviceInput {
-        
-    } ()
+//    private lazy var deviceInput : AVCaptureDeviceInput {
+//
+//    } ()
     
     private lazy var session : AVCaptureSession = {
         var session = AVCaptureSession.init()
@@ -66,7 +66,7 @@ class HFSCameraPresenter : NSObject {
 extension HFSCameraPresenter
 {
     func configCameraSetting() {
-        if self.session.inputs.contains(self.de)
+//        if self.session.inputs.contains(self.de)
     }
 }
 

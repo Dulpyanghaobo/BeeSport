@@ -371,9 +371,9 @@
 		AAEAC16226EB81FD000D0DDD /* SportScanner */ = {
 			isa = PBXGroup;
 			children = (
+				DACD14AC26EC383500E6EAB7 /* GoogleService-Info.plist */,
 				DACD14EF26EC4B5800E6EAB7 /* Application */,
 				DACD14F126EC4BDD00E6EAB7 /* Presentation */,
-				DACD14AC26EC383500E6EAB7 /* GoogleService-Info.plist */,
 				AAB3346A27201D9B00D47BDF /* Infrastructure */,
 				DACD14F026EC4B5E00E6EAB7 /* Resources */,
 			);
@@ -533,6 +533,37 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		DA8B4E37273D6C6800BF32CA /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				DA8B4E3A273D6C8100BF32CA /* ViewModel */,
+				DA8B4E39273D6C7B00BF32CA /* Model */,
+				DA8B4E38273D6C7600BF32CA /* View */,
+			);
+			path = Study;
+			sourceTree = "<group>";
+		};
+		DA8B4E38273D6C7600BF32CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA8B4E39273D6C7B00BF32CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA8B4E3A273D6C8100BF32CA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		DACD14EF26EC4B5800E6EAB7 /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -564,6 +595,7 @@
 		DACD14F126EC4BDD00E6EAB7 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				DA8B4E37273D6C6800BF32CA /* Study */,
 				AAB3345827201B9E00D47BDF /* Camera */,
 				DA44E37726EDB1E300775D74 /* GoalSetting */,
 				DA44E37026EDA31600775D74 /* Browser */,
@@ -1129,7 +1161,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1186,7 +1218,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
